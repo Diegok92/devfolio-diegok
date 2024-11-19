@@ -33,12 +33,28 @@ export default {
 
 <style scoped>
 .project-card {
-	margin: 30px;
+	width: calc(33.33% - 30px); /* Tarjetas uniformes en 3 columnas */
 	transition: transform 0.3s ease, box-shadow 0.3s ease;
 	padding: 20px;
 	background-color: #ffffff;
 	border-radius: 10px;
 	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0; /* Se elimina el margen */
+}
+
+@media (max-width: 992px) {
+	.project-card {
+		width: calc(50% - 30px); /* 2 columnas en pantallas medianas */
+	}
+}
+
+@media (max-width: 600px) {
+	.project-card {
+		width: calc(100% - 30px); /* 1 columna en pantallas pequeñas */
+	}
 }
 
 .project-card:hover {
@@ -51,6 +67,7 @@ export default {
 	object-fit: cover;
 	transition: transform 0.3s ease;
 	border-radius: 5px;
+	width: 100%;
 }
 
 .project-card:hover .card-img-top {
@@ -62,21 +79,7 @@ export default {
 	flex-direction: column;
 	align-items: center;
 	padding: 20px;
-}
-
-.card-title {
-	font-weight: bold;
-	font-size: 1.25em;
-	margin-bottom: 10px;
-	color: #333;
-	text-align: center;
-}
-
-.card-text {
-	font-size: 1em;
-	color: #555;
-	text-align: center;
-	margin-bottom: 20px;
+	flex-grow: 1; /* Para que las tarjetas crezcan uniformemente */
 }
 
 .buttons-container {
@@ -84,6 +87,7 @@ export default {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-top: auto; /* Para empujar los botones al final */
 }
 
 .btn {
