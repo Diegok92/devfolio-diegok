@@ -11,6 +11,10 @@
 			<p class="lead text-white">
 				<i class="fas fa-laptop-code"></i> Aspiring Full Stack Developer
 			</p>
+			<p class="lead text-black">
+				<i class="fas fa-person-digging"></i> Website Under Construction
+				<i class="fas fa-person-digging"></i>
+			</p>
 		</div>
 
 		<!-- About Section -->
@@ -46,7 +50,7 @@
 				skills and experience?
 			</p>
 			<a
-				href="@/assets/Diego_K_CV.pdf"
+				href="../../public/KleimanDiegoCV.pdf"
 				download
 				class="btn btn-outline-light btn-lg mt-3 shadow"
 			>
@@ -108,6 +112,9 @@
 import ProjectCard from "../components/ProjectCard.vue";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import PreviewMatde from "../assets/PreviewMatde.png";
+import PreviewBolsaTrabajos from "../assets/previewBolsaTrabajos.png";
+import PreviewPokedex from "../assets/previewPokedex.png";
 
 export default {
 	name: "Home",
@@ -119,20 +126,30 @@ export default {
 			projects: [
 				{
 					name: "SegurosMatde",
-					description: "A project about insurance management.",
+					description: "A website for a large insurance management.",
 					url: "https://github.com/Diegok92/SegurosMatde",
-					image: "https://via.placeholder.com/400x200",
+					pagesUrl: "https://diegok92.github.io/SegurosMatde/",
+					image: PreviewMatde,
+				},
+				{
+					name: "BolsaTrabajos",
+					description: "A website uniting job seekers with employers.",
+					url: "https://github.com/Diegok92/ORT-PNT2-TP-BolsaEmpleo",
+					pagesUrl: "https://diegok92.github.io/ORT-PNT2-TP-BolsaEmpleo/#/",
+					image: PreviewBolsaTrabajos,
 				},
 				{
 					name: "Pokedex",
 					description: "A project that allows users to explore Pokémon data.",
 					url: "https://github.com/Diegok92/pokedex",
-					image: "https://via.placeholder.com/400x200",
+					pagesUrl: "https://diegok92.github.io/pokedex/",
+					image: PreviewPokedex,
 				},
 				{
 					name: "ToDo List",
 					description: "A simple ToDo List app for managing daily tasks.",
 					url: "https://github.com/Diegok92/ToDoList",
+
 					image: "https://via.placeholder.com/400x200",
 				},
 				{
