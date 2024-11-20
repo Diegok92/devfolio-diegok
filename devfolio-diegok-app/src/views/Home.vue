@@ -50,7 +50,7 @@
 				skills and experience?
 			</p>
 			<a
-				href="../../public/KleimanDiegoCV.pdf"
+				:href="`${import.meta.env.BASE_URL}KleimanDiegoCV.pdf`"
 				download
 				class="btn btn-outline-light btn-lg mt-3 shadow"
 			>
