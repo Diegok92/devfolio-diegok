@@ -50,7 +50,7 @@
 				skills and experience?
 			</p>
 			<a
-				:href="`${import.meta.env.BASE_URL}KleimanDiegoCV.pdf`"
+				:href="`${baseUrl}KleimanDiegoCV.pdf`"
 				download
 				class="btn btn-outline-light btn-lg mt-3 shadow"
 			>
@@ -149,7 +149,6 @@ export default {
 					name: "ToDo List",
 					description: "A simple ToDo List app for managing daily tasks.",
 					url: "https://github.com/Diegok92/ToDoList",
-
 					image: "https://via.placeholder.com/400x200",
 				},
 				{
@@ -167,6 +166,11 @@ export default {
 				},
 			],
 		};
+	},
+	computed: {
+		baseUrl() {
+			return import.meta.env.BASE_URL;
+		},
 	},
 	mounted() {
 		AOS.init();
