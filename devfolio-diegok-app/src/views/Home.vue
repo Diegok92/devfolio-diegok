@@ -155,7 +155,7 @@ export default {
 					image: PreviewToDoList,
 				},
 				{
-					name: "Password Front Validadtor",
+					name: "Password Front Validator",
 					description: "An online strenght password frontend validator",
 					url: "https://github.com/Diegok92/PasswordFrontValidation",
 					pagesUrl: "https://diegok92.github.io/PasswordFrontValidation/",
