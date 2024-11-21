@@ -115,6 +115,7 @@ import "aos/dist/aos.css";
 import PreviewMatde from "../assets/PreviewMatde.png";
 import PreviewBolsaTrabajos from "../assets/previewBolsaTrabajos.png";
 import PreviewPokedex from "../assets/previewPokedex.png";
+import PreviewToDoList from "../assets/previewTo-DoList.png";
 
 export default {
 	name: "Home",
@@ -149,7 +150,8 @@ export default {
 					name: "ToDo List",
 					description: "A simple ToDo List app for managing daily tasks.",
 					url: "https://github.com/Diegok92/ToDoList",
-					image: "https://via.placeholder.com/400x200",
+					pagesUrl: "https://diegok92.github.io/ToDoList/",
+					image: PreviewToDoList,
 				},
 				{
 					name: "Mercado Liebre",
