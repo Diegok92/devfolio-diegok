@@ -116,6 +116,7 @@ import PreviewMatde from "../assets/PreviewMatde.png";
 import PreviewBolsaTrabajos from "../assets/previewBolsaTrabajos.png";
 import PreviewPokedex from "../assets/previewPokedex.png";
 import PreviewToDoList from "../assets/previewTo-DoList.png";
+import PreviewValidadorFrontPassword from "../assets/PreviewValidadorFrontPassword.png";
 
 export default {
 	name: "Home",
@@ -154,11 +155,11 @@ export default {
 					image: PreviewToDoList,
 				},
 				{
-					name: "Mercado Liebre",
-					description:
-						"A clone of an e-commerce site for educational purposes.",
-					url: "https://github.com/Diegok92/mercadoLiebre",
-					image: "https://via.placeholder.com/400x200",
+					name: "Password Front Validadtor",
+					description: "An online strenght password frontend validator",
+					url: "https://github.com/Diegok92/PasswordFrontValidation",
+					pagesUrl: "https://diegok92.github.io/PasswordFrontValidation/",
+					image: PreviewValidadorFrontPassword,
 				},
 				{
 					name: "Afrus Test",
