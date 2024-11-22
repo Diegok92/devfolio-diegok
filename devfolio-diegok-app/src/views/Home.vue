@@ -117,6 +117,7 @@ import PreviewBolsaTrabajos from "../assets/previewBolsaTrabajos.png";
 import PreviewPokedex from "../assets/previewPokedex.png";
 import PreviewToDoList from "../assets/previewTo-DoList.png";
 import PreviewValidadorFrontPassword from "../assets/PreviewValidadorFrontPassword.png";
+import PreviewCalculadora from "../assets/PreviewCalculadora.png";
 
 export default {
 	name: "Home",
@@ -162,10 +163,12 @@ export default {
 					image: PreviewValidadorFrontPassword,
 				},
 				{
-					name: "Afrus Test",
-					description: "A project developed as part of a technical assessment.",
-					url: "https://github.com/Diegok92/afrusTest",
-					image: "https://via.placeholder.com/400x200",
+					name: "Scientific Calculator & Unit Converter",
+					description:
+						"An online scientific calculator and a multi unit converter (imperial & international units)",
+					url: "https://github.com/Diegok92/calculadoraCientifica",
+					pagesUrl: "https://diegok92.github.io/calculadoraCientifica/",
+					image: PreviewCalculadora,
 				},
 			],
 		};
