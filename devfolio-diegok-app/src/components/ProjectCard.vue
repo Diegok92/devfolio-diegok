@@ -1,21 +1,23 @@
 <template>
 	<div class="card shadow-sm project-card">
-		<img :src="project.image" class="card-img-top" alt="Project Image" />
+		<div class="card-img-container">
+			<img :src="project.image" class="card-img-top" alt="Project Image" />
+		</div>
 		<div class="card-body">
 			<h5 class="card-title">{{ project.name }}</h5>
 			<p class="card-text">{{ project.description }}</p>
 
 			<div class="buttons-container">
-				<a :href="project.url" target="_blank" class="btn btn-primary">
-					<i class="fas fa-external-link-alt"></i> View GitHub Repository
-				</a>
 				<a
 					v-if="project.pagesUrl"
 					:href="project.pagesUrl"
 					target="_blank"
-					class="btn btn-secondary mt-2"
+					class="btn btn-live-demo"
 				>
 					<i class="fas fa-globe"></i> View Live Demo
+				</a>
+				<a :href="project.url" target="_blank" class="btn btn-repository">
+					<i class="fab fa-github"></i> GitHub Repository
 				</a>
 			</div>
 		</div>
@@ -33,45 +35,52 @@ export default {
 
 <style scoped>
 .project-card {
-	width: calc(33.33% - 30px); /* Tarjetas uniformes en 3 columnas */
+	width: calc(33.33% - 20px);
 	transition: transform 0.3s ease, box-shadow 0.3s ease;
-	padding: 20px;
+	padding: 15px;
 	background-color: #ffffff;
-	border-radius: 10px;
-	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+	border-radius: 12px;
+	box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 0; /* Se elimina el margen */
+	margin: 15px;
 }
 
 @media (max-width: 992px) {
 	.project-card {
-		width: calc(50% - 30px); /* 2 columnas en pantallas medianas */
+		width: calc(50% - 20px);
 	}
 }
 
 @media (max-width: 600px) {
 	.project-card {
-		width: calc(100% - 30px); /* 1 columna en pantallas pequeñas */
+		width: calc(100% - 20px);
 	}
 }
 
 .project-card:hover {
 	transform: translateY(-10px);
-	box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-container {
+	width: 100%;
+	height: 180px;
+	overflow: hidden;
+	border-radius: 8px;
+	position: relative;
 }
 
 .card-img-top {
-	height: 200px;
+	width: 100%;
+	height: 100%;
 	object-fit: cover;
 	transition: transform 0.3s ease;
-	border-radius: 5px;
-	width: 100%;
 }
 
 .project-card:hover .card-img-top {
-	transform: scale(1.05);
+	transform: scale(1.1);
 }
 
 .card-body {
@@ -79,7 +88,6 @@ export default {
 	flex-direction: column;
 	align-items: center;
 	padding: 20px;
-	flex-grow: 1; /* Para que las tarjetas crezcan uniformemente */
 }
 
 .buttons-container {
@@ -87,37 +95,37 @@ export default {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: auto; /* Para empujar los botones al final */
+	margin-top: auto;
 }
 
 .btn {
-	width: 80%;
+	width: 100%;
 	margin-bottom: 10px;
 	font-weight: bold;
 	transition: all 0.3s ease;
 }
 
-.btn-primary {
-	background-color: #007bff;
+.btn-live-demo {
+	background-color: #28a745;
 	color: #ffffff;
 }
 
-.btn-primary:hover {
-	background-color: #0056b3;
-	color: #ffffff;
+.btn-live-demo:hover {
+	background-color: #218838;
 	transform: translateY(-3px);
 	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+	color: white;
 }
 
-.btn-secondary {
-	background-color: #6c757d;
+.btn-repository {
+	background-color: #343a40;
 	color: #ffffff;
 }
 
-.btn-secondary:hover {
-	background-color: #5a6268;
-	color: #ffffff;
+.btn-repository:hover {
+	background-color: #23272b;
 	transform: translateY(-3px);
 	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+	color: white;
 }
 </style>
