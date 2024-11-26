@@ -28,7 +28,7 @@ export default {
 	es: {
 		message: {
 			hello: "Hola, soy Diego",
-			subtitle: "Full Stack Web Developer - BI Analyst - Ing. Mecanica",
+			subtitle: "Desarrollador Web Full Stack - BI Analyst - Ing. Mecanica",
 			aboutMeTitle: "Sobre Mí",
 			experience: "Experiencia Profesional",
 			education: "Educación",
@@ -43,8 +43,10 @@ export default {
 			AchievementsTitle: "Logros",
 			cvSectionTitle: "Mi CV",
 			cvSectionsubtitle:
-				"Interesado en saber mas sobre mi experiencia y habilidades?",
+				"Interés en saber mas sobre mi experiencia y habilidades?",
 			cvDownloadButton: "Descargá mi CV",
+			contactMeTitle: "Contactame!",
+
 			contactMeText:
 				"No dudes en contactarme para colaborar, hacer preguntas o por oportunidades laborales! Estoy buscando activamente puestos en desarrollo front-end, back-end o full stack.",
 		},
