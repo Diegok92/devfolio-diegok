@@ -8,23 +8,24 @@
 				alt="Profile Picture"
 				class="profile-picture mb-4"
 			/>
-			<h1 class="text-white"><i class="fas fa-code"></i> Hello, I'm Diego</h1>
+			<h1 class="text-white">
+				<i class="fas fa-code"></i> {{ $t("message.hello") }}
+			</h1>
 			<p class="lead text-accent">
-				Full Stack Web Developer | BI Analyst | Mechanical Engineer
+				{{ $t("message.subtitle") }}
 			</p>
 		</div>
 
 		<!-- About Section -->
 		<div id="about" class="about-section text-center py-5" data-aos="fade-up">
 			<div class="about-container mx-auto p-4">
-				<h2 class="mb-4"><i class="fas fa-user"></i> About Me</h2>
+				<h2 class="mb-4">
+					<i class="fas fa-user"></i> {{ $t("message.aboutMeTitle") }}
+				</h2>
 				<p class="about-text">
 					<i class="fas fa-quote-left"></i>
-					The pandemic helped me decide to change my career, and I saw
-					programming as a great opportunity to grow professionally. I am a
-					responsible, diligent person with a great ability to work in a team. I
-					am looking for a position that will provide me with new knowledge and
-					allow me to grow in this exciting field.
+					{{ $t("message.aboutMe") }}
+
 					<i class="fas fa-quote-right"></i>
 				</p>
 			</div>
@@ -41,7 +42,8 @@
 					<!-- Professional Experience Section -->
 					<div class="col-md-6">
 						<h2 class="text-center mb-4">
-							<i class="fas fa-briefcase"></i> Professional Experience
+							<i class="fas fa-briefcase"></i>
+							{{ $t("message.experience") }}
 						</h2>
 						<div class="timeline">
 							<div
@@ -57,7 +59,8 @@
 									<p class="experience-location">{{ experience.location }}</p>
 									<p>{{ experience.description }}</p>
 									<p>
-										<strong>Achievements:</strong> {{ experience.achievements }}
+										<strong>{{ $t("message.AchievementsTitle") }}:</strong>
+										{{ experience.achievements }}
 									</p>
 								</div>
 							</div>
@@ -68,7 +71,8 @@
 					<div class="col-md-6">
 						<!-- Education Section -->
 						<h2 class="text-center mb-4">
-							<i class="fas fa-graduation-cap"></i> Education
+							<i class="fas fa-graduation-cap"></i>
+							{{ $t("message.education") }}
 						</h2>
 						<div class="education-list text-center">
 							<div
@@ -87,7 +91,8 @@
 
 						<!-- Skills Section -->
 						<h2 class="text-center mt-5">
-							<i class="fas fa-tools"></i> Skills & Technologies
+							<i class="fas fa-tools"></i>
+							{{ $t("message.skillsSectionTitle") }}
 						</h2>
 						<div class="skills-grid mt-4">
 							<div
@@ -108,7 +113,8 @@
 		<!-- Projects Section -->
 		<div id="projects" class="projects-section py-5">
 			<h2 class="text-center mb-5" data-aos="fade-up">
-				<i class="fas fa-folder-open"></i> Some of My Projects
+				<i class="fas fa-folder-open"></i>
+				{{ $t("message.projectsSectionTitlePage") }}
 			</h2>
 			<div class="d-flex flex-wrap justify-content-center">
 				<ProjectCard
@@ -122,17 +128,18 @@
 
 		<!-- CV Section -->
 		<div id="cv" class="cv-section text-center py-5" data-aos="fade-up">
-			<h2 class="text-white"><i class="fas fa-file-alt"></i> My CV</h2>
+			<h2 class="text-white">
+				<i class="fas fa-file-alt"></i> {{ $t("message.cvSectionTitle") }}
+			</h2>
 			<p class="lead text-white">
-				<i class="fas fa-info-circle"></i> Interested in knowing more about my
-				skills and experience?
+				<i class="fas fa-info-circle"></i> {{ $t("message.cvSectionsubtitle") }}
 			</p>
 			<a
 				href="/devfolio-diegok/KleimanDiegoCV.pdf"
 				download
 				class="btn btn-outline-light btn-lg mt-3 shadow"
 			>
-				<i class="fas fa-download"></i> Download My CV
+				<i class="fas fa-download"></i> {{ $t("message.cvDownloadButton") }}
 			</a>
 		</div>
 
@@ -141,12 +148,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
-						<h2><i class="fas fa-address-book"></i> Contact Me</h2>
+						<h2>
+							<i class="fas fa-address-book"></i>
+							{{ $t("message.contactMeTitle") }}
+						</h2>
 						<p class="lead">
-							<i class="fas fa-handshake"></i> Feel free to reach out for
-							collaborations, questions, or job opportunities! I am actively
-							looking for roles in front-end, back-end, or full stack
-							development.
+							<i class="fas fa-handshake"></i> {{ $t("message.contactMeText") }}
 						</p>
 					</div>
 					<div
@@ -156,7 +163,7 @@
 							href="mailto:kleiman.diego@gmail.com"
 							class="btn contact-btn btn-primary my-2 shadow"
 						>
-							<i class="fas fa-envelope"></i> Email Me
+							<i class="fas fa-envelope"></i> Email
 						</a>
 						<a
 							href="https://linkedin.com/in/diego-kleiman92"

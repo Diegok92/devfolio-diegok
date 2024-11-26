@@ -1,7 +1,7 @@
 <template>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="#">Diego K Portfolio</a>
+			<a class="navbar-brand" href="#">Diego K. DevFolio</a>
 			<button
 				class="navbar-toggler"
 				type="button"
@@ -16,16 +16,50 @@
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ms-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="#about">About Me</a>
+						<a class="nav-link" href="#about">{{
+							$t("message.aboutMeTitle")
+						}}</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#projects">Projects</a>
+						<a class="nav-link" href="#projects">{{
+							$t("message.projectsSectionTitle")
+						}}</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#contact">Contact</a>
+						<a class="nav-link" href="#contact">{{ $t("message.contact") }}</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#cv">CV</a>
+						<a class="nav-link" href="#cv">{{ $t("message.download_cv") }}</a>
+					</li>
+					<!-- Botón de cambio de idioma -->
+					<li class="nav-item dropdown ms-3">
+						<a
+							class="nav-link dropdown-toggle"
+							href="#"
+							role="button"
+							data-bs-toggle="dropdown"
+							aria-expanded="false"
+						>
+							<i class="fas fa-globe"></i> {{ currentLanguage }}
+						</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a
+									class="dropdown-item"
+									href="#"
+									@click.prevent="changeLanguage('es')"
+									>Español</a
+								>
+							</li>
+							<li>
+								<a
+									class="dropdown-item"
+									href="#"
+									@click.prevent="changeLanguage('en')"
+									>English</a
+								>
+							</li>
+						</ul>
 					</li>
 				</ul>
 			</div>
@@ -36,6 +70,17 @@
 <script>
 export default {
 	name: "Navbar",
+	data() {
+		return {
+			currentLanguage: this.$i18n.locale === "es" ? "Español" : "English",
+		};
+	},
+	methods: {
+		changeLanguage(locale) {
+			this.$i18n.locale = locale;
+			this.currentLanguage = locale === "es" ? "Español" : "English";
+		},
+	},
 };
 </script>
 
