@@ -30,7 +30,7 @@
 			</div>
 		</div>
 
-		<!-- Professional Experience & Education Section -->
+		<!-- Professional Experience & Education & Skills Section -->
 		<div
 			id="experience-education"
 			class="experience-education-section py-5"
@@ -64,8 +64,9 @@
 						</div>
 					</div>
 
-					<!-- Education Section -->
+					<!-- Education & Skills Section -->
 					<div class="col-md-6">
+						<!-- Education Section -->
 						<h2 class="text-center mb-4">
 							<i class="fas fa-graduation-cap"></i> Education
 						</h2>
@@ -76,27 +77,30 @@
 								:key="index"
 							>
 								<h4>
-									{{ education.institution }} - {{ education.degree }} ({{
+									{{ education.institution }} -
+									<span class="degree">{{ education.degree }}</span> ({{
 										education.years
 									}})
 								</h4>
 							</div>
 						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 
-		<!-- Skills Section -->
-		<div id="skills" class="skills-section py-5" data-aos="fade-up">
-			<h2 class="text-center">
-				<i class="fas fa-tools"></i> Skills & Technologies
-			</h2>
-			<div class="skills-grid">
-				<div class="skill-card" v-for="(skill, index) in skills" :key="index">
-					<i :class="skill.icon"></i>
-					<h4>{{ skill.title }}</h4>
-					<p>{{ skill.details }}</p>
+						<!-- Skills Section -->
+						<h2 class="text-center mt-5">
+							<i class="fas fa-tools"></i> Skills & Technologies
+						</h2>
+						<div class="skills-grid mt-4">
+							<div
+								class="skill-card"
+								v-for="(skill, index) in skills"
+								:key="index"
+							>
+								<i :class="skill.icon"></i>
+								<h4>{{ skill.title }}</h4>
+								<p>{{ skill.details }}</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -255,35 +259,58 @@ export default {
 				},
 				{
 					institution: "ORT Yatay",
-					degree: "High School - Electronic Spec.",
+					degree: "High School - Electronic",
 					years: "2005 - 2010",
 				},
 			],
 			skills: [
 				{
 					title: "Frontend",
-					details: "HTML, CSS, JavaScript, Vue.js, React",
-					icon: "fas fa-laptop-code",
+					details: "HTML, CSS, JavaScript, Vue.js, React.js",
+					icon: "fas fa-image",
 				},
 				{
 					title: "Backend",
-					details: "Node.js, Express, Java, C#, SQL",
+					details: "Node.js, Express.js, Java, C#, APIs",
 					icon: "fas fa-server",
 				},
 				{
 					title: "Databases",
-					details: "MySQL, CRUD, Table Design",
+					details:
+						"MySQL, CRUD, Table Design, SAP HANA, MS SQL Server Management Studio",
 					icon: "fas fa-database",
 				},
 				{
 					title: "Methodologies",
-					details: "Agile (SCRUM), Trello",
+					details: "Agile (SCRUM), Trello, ClickUp",
 					icon: "fas fa-project-diagram",
 				},
 				{
-					title: "Tools",
-					details: "SAP HANA, Google Ads, Google Analytics, Tag Manager",
-					icon: "fas fa-tools",
+					title: "MKT. Tools",
+					details: "Google Ads, Google Analytics, Tag Manager, SemRush",
+					icon: "fas fa-users",
+				},
+				{
+					title: "IDEs",
+					details: "Visual Studio Code, Eclipse",
+					icon: "fas fa-laptop-code",
+				},
+
+				{
+					title: "MS Office",
+					details: "Excel, Word, PowerPoint",
+					icon: "fas fa-pie-chart",
+				},
+				{
+					title: "3D/2D Software",
+					details: "Catia, SolidWorks, AutoCad",
+					icon: "fas fa-cubes",
+				},
+
+				{
+					title: "Other Software",
+					details: "Looker Studio, Postman, MockAPI, FileZilla, Brevo",
+					icon: "fas fa-window-restore",
 				},
 				{
 					title: "Languages",
@@ -421,6 +448,12 @@ export default {
 .company {
 	color: #007bff;
 }
+.education-list {
+	margin-top: 20px;
+}
+.education-item .degree {
+	color: #007bff; /* Color modificado para los títulos de los grados */
+}
 .skills-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -438,6 +471,9 @@ export default {
 .skill-card:hover {
 	transform: translateY(-10px);
 	box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+.skill-card h4 {
+	color: #007bff; /* Color modificado para los títulos */
 }
 .cv-section {
 	background: linear-gradient(135deg, #007bff, #6610f2);
