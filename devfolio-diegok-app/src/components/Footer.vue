@@ -1,7 +1,7 @@
 <template>
 	<footer class="footer bg-dark text-white py-4 text-center">
 		<div class="container">
-			<p>© 2024 Diego K Portfolio. All rights reserved.</p>
+			<p>© 2024 Diego Kleiman Portfolio. All rights reserved.</p>
 			<div class="social-links">
 				<a
 					href="https://github.com/Diegok92"

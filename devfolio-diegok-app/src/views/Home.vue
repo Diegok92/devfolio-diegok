@@ -108,7 +108,7 @@
 		<!-- Projects Section -->
 		<div id="projects" class="projects-section py-5">
 			<h2 class="text-center mb-5" data-aos="fade-up">
-				<i class="fas fa-folder-open"></i> Projects
+				<i class="fas fa-folder-open"></i> Some of My Projects
 			</h2>
 			<div class="d-flex flex-wrap justify-content-center">
 				<ProjectCard
@@ -238,7 +238,7 @@ export default {
 					description:
 						"Design and interpretation of plans, implementation of 5S, TPM, Kan Ban in the office and plant, gathered and tracked reports on failures and solutions.",
 					achievements:
-						"Certified in Catia V5 (3D Design) and VK RC4 (Robotic Arm Programming).",
+						"Certified in Catia V5 (3D Design) and KUKA VKRC4 (Industrial robot Programming software).",
 				},
 			],
 			educationList: [
@@ -246,6 +246,11 @@ export default {
 					institution: "ORT Yatay",
 					degree: "Systems Analyst",
 					years: "2022 - Present",
+				},
+				{
+					institution: "Digital House",
+					degree: "FullStack Web Dev.",
+					years: "2021 - 2022",
 				},
 				{
 					institution: "UTN FRBA",
@@ -287,7 +292,7 @@ export default {
 				},
 				{
 					title: "MKT. Tools",
-					details: "Google Ads, Google Analytics, Tag Manager, SemRush",
+					details: "Google Ads, Google Analytics, Tag Manager, SemRush, Brevo",
 					icon: "fas fa-users",
 				},
 				{
@@ -302,14 +307,14 @@ export default {
 					icon: "fas fa-pie-chart",
 				},
 				{
-					title: "3D/2D Software",
+					title: "2D, 3D Design Soft.",
 					details: "Catia, SolidWorks, AutoCad",
 					icon: "fas fa-cubes",
 				},
 
 				{
 					title: "Other Software",
-					details: "Looker Studio, Postman, MockAPI, FileZilla, Brevo",
+					details: "Looker Studio, Postman, MockAPI, FileZilla",
 					icon: "fas fa-window-restore",
 				},
 				{
