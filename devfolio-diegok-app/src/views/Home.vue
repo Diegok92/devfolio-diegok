@@ -48,7 +48,7 @@
 							<div v-for="n in 4" :key="n" class="timeline-item">
 								<div class="timeline-content">
 									<h4 class="experience-title">
-										{{ $t(`message.experienceTitle${n}`) }} -
+										{{ $t(`message.experienceTitle${n}`) }} |
 										<span class="company">{{
 											$t(`message.experienceCompany${n}`)
 										}}</span>
@@ -56,11 +56,14 @@
 									<p class="experience-location">
 										{{ $t(`message.experienceLocation${n}`) }}
 									</p>
+									<p>
+										<strong>{{ $t("message.experienceTitle") }}:</strong>
+									</p>
 									<p>{{ $t(`message.experienceDescription${n}`) }}</p>
 									<p>
 										<strong>{{ $t("message.AchievementsTitle") }}:</strong>
-										{{ $t(`message.experienceAchievements${n}`) }}
 									</p>
+									<p>{{ $t(`message.experienceAchievements${n}`) }}</p>
 								</div>
 							</div>
 						</div>

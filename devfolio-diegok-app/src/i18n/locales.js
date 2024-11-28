@@ -65,7 +65,7 @@ export default {
 			skillLanguagesDetails: "Spanish (Native), English (Advanced)",
 
 			// Professional Experience Section
-			experienceTitle1: "Software Developer & Digital Marketing",
+			experienceTitle1: "Web Developer & Digital Marketing",
 			experienceCompany1: "Habi",
 			experienceLocation1: "Remote, 2024 - Present",
 			experienceDescription1:
@@ -128,10 +128,10 @@ export default {
 			cvSectionTitle: "Mi CV",
 			cvSectionsubtitle:
 				"Interés en saber más sobre mi experiencia y habilidades?",
-			cvDownloadButton: "Descargá mi CV",
+			cvDownloadButton: "Descargar mi CV",
 			contactMeTitle: "Contactame!",
 			contactMeText:
-				"No dudes en contactarme para colaborar, hacer preguntas o por oportunidades laborales! Estoy buscando activamente puestos en desarrollo front-end, back-end o full stack.",
+				"No dudes en contactarme para colaboraraciones ó por oportunidades laborales! Estoy buscando activamente puestos en desarrollo front-end, back-end o full stack.",
 
 			// Education Section
 			educationInstitution1: "ORT Yatay",
@@ -175,26 +175,27 @@ export default {
 			skillLanguagesDetails: "Español (Nativo), Inglés (Avanzado)",
 
 			// Professional Experience Section
-			experienceTitle1: "Desarrollador de Software y MKT Digital",
+			experienceTitle1: "Desarrollador Web y MKT Digital",
 			experienceCompany1: "Habi",
 			experienceLocation1: "Remoto, 2024 - Presente",
+			experienceTitle: "Responsabilidades",
 			experienceDescription1:
-				"Soluciones web para la gestión de productos en TiendaNube, gestión de Google Ads, Analytics y Tag Manager para múltiples clientes.",
+				"Crear soluciones web para administrar los productos publicados en TiendaNube de todos los clientes, Manejar Google Ads, Google Analytcs y TagManager para diversos clientes",
 			experienceAchievements1:
-				"Creé una API CRUD para gestionar productos de clientes en TiendaNube, creación de sitios web y mejoras de procesos para el equipo.",
-			experienceTitle2: "Analista de Inteligencia de Negocios",
+				"Creación API (CRUD) con TiendaNube para todos los clientes, Creación de paginas web para diversos clientes e implementación de mejoras con respecto a la información organizacional de los equipos de trabajo",
+			experienceTitle2: "Analista de Inteligencia de Negocios (BI)",
 			experienceCompany2: "Seidor Analytics",
 			experienceLocation2: "Remoto, 2022 - 2023",
 			experienceDescription2:
-				"Atendí tickets de usuarios con el software SAP HANA, BW y SQL Server.",
-			experienceAchievements2: "Completé la certificación interna de SQL.",
-			experienceTitle3: "Analista de Calidad en Ingeniería, Partes Compradas",
+				"Atender tickets de usuarios y resolverlos mediante las herramientas: SAP HANA, BW y MS SQL Server.",
+			experienceAchievements2: "Certificación en SQL.",
+			experienceTitle3: "Analista de Ingeniería, Calidad - Piezas Compradas",
 			experienceCompany3: "Volkswagen Argentina",
 			experienceLocation3: "Pacheco, 2019 - 2021",
 			experienceDescription3:
-				"Manejé requerimientos de línea (Bloqueo, Liberación, Información); preparé reportes de problemas de calidad para el modelo Taos y recopilé informes de fallos de diferentes plantas (Montaje, Pintura, Carrocería, etc.); conformé, controlé y rastreé daños a VW debido a fallos de proveedores para Amarok. Apoyé al departamento de logística, creando informes de criticidad para posibles faltantes de piezas en la planta según consumo, stock y envíos durante la pandemia.",
+				"Manejar requerimientos de calidad en línea de producción para el nuevo modelo en Argentina 'Taos' (Bloqueo, Liberación, Información) mediante periodicas reuniones con todas las plantas y areas involucradas. Y para 'Amarok', preparar reportes de problemas de calidad y recopilar informes de fallos de diferentes plantas (Montaje, Pintura, Carrocería, etc.) para conformar, controlar y rastrear perjuicios a VW debido a fallos de proveedores. Luego, Durante la pandemia, tambien apoyé al departamento de logística internacional, creando informes de criticidad para posibles faltantes de piezas en las plantas según consumo, stock y envíos en camino.",
 			experienceAchievements3:
-				"Creé nuevos indicadores y automatizé informes de seguimiento de calidad para varios departamentos, siendo referencia en mi área.",
+				"Crear nuevos indicadores de calidad y automatizar informes de seguimiento para varios departamentos. Lograr detectar y reportar faltantes de piezas criticas para Logistica con meses de anticipacion y lograr ser una referencia tanto para con los operarios y compañeros de mis oficinas como para personal de otras areas.",
 			experienceTitle4:
 				"Pasante de Ingeniería, Mantenimiento - Planta Carrocería",
 			experienceCompany4: "Volkswagen Argentina",
@@ -202,27 +203,27 @@ export default {
 			experienceDescription4:
 				"Diseño e interpretación de planos, implementación de 5S, TPM, Kan Ban en la oficina y planta, recopilación y seguimiento de informes sobre fallos y soluciones.",
 			experienceAchievements4:
-				"Certificado en Catia V5 (Diseño 3D) y KUKA VKRC4 (Programación de robots industriales).",
+				"Certificación en Catia V5 y KUKA VKRC4 (Programación de robots industriales).",
 
 			// Projects Section
 			projectTitle1: "Matde - Brokers de Seguros",
 			projectDescription1:
-				"Sitio web para empresa internacional de productores de seguros",
+				"Sitio web para empresa internacional de productores de seguros, hecho en: HTML, CSS, VUE.js",
 			projectTitle2: "Bolsa de Empleo",
 			projectDescription2:
-				"Sitio web que une a personas interesadas en conseguir empleo, con empleadores en busca de nuevo personal",
+				"Sitio web que une a personas interesadas en conseguir empleo, con empleadores en busca de nuevo personal, hecho en: HTML, CSS, VUE.js y MockApi como BD para CRUD de usuarios y empleos",
 			projectTitle3: "Pokedex",
 			projectDescription3:
-				"Sitio web que permite obtener informacion de cualquier Pokemon buscado por # o por nombre, tambien podes escuharlos!",
+				"Sitio web que permite obtener informacion de cualquier Pokemon buscado por # o por nombre, con diseño retro y tambien podes escuharlos!. Hecho en HTML, CSS y Javascript",
 			projectTitle4: "Lista de Tareas",
 			projectDescription4:
-				"Sitio web cuya finalidad es listar tus tareas diarias, permitiendo su edicion, borrado y marcado como resuelta",
+				"Sitio web cuya finalidad es listar las tareas creadas, permitiendo su edicion, borrado y marcado como resuelta. Hecho en: HTML, CSS y REACT.js",
 			projectTitle5: "Comprobador de fortaleza de Contraseñas",
 			projectDescription5:
-				"Sitio web para comprobar la fortaleza de tu contraseña. en base a los utlimos criterios en seguridad",
+				"Sitio web para comprobar la fortaleza de tu contraseña. en base a los utlimos criterios en seguridad. Hecho en: HTML, CSS y REACT.js",
 			projectTitle6: "Calculadora Científica & Conversor de Unidades",
 			projectDescription6:
-				"Sitio web con calculadora científica y conversor de unidades tanto internacionales como imperiales.",
+				"Sitio web con calculadora científica y conversor de unidades tanto internacionales como imperiales. Hecho en: HTML, CSS y VUE.js",
 		},
 	},
 };
