@@ -117,7 +117,7 @@ export default {
 			aboutMeTitle: "Sobre Mí",
 			experience: "Experiencia Profesional",
 			education: "Educación",
-			skillsSectionTitle: "Habilidades y Tecnologías",
+			skillsSectionTitle: "Tecnologías y Habilidades",
 			projectsSectionTitle: "Proyectos",
 			projectsSectionTitlePage: "Algunos de mis Proyectos",
 			contact: "Contacto",
@@ -154,25 +154,30 @@ export default {
 			skillFrontendTitle: "Frontend",
 			skillFrontendDetails: "HTML, CSS, JavaScript, Vue.js, React.js",
 			skillBackendTitle: "Backend",
-			skillBackendDetails: "Node.js, Express.js, Java, C#, APIs",
+			skillBackendDetails: "Javascript, Node.js, Express.js, Java, C#, APIs",
 			skillDatabasesTitle: "Bases de Datos",
 			skillDatabasesDetails:
-				"MySQL, CRUD, Diseño de Tablas, SAP HANA, MS SQL Server Management Studio",
+				"MySQL, CRUD, SAP HANA, MS SQL Server Management Studio",
 			skillMethodologiesTitle: "Metodologías",
-			skillMethodologiesDetails: "Agiles (SCRUM), Trello, ClickUp",
+			skillMethodologiesDetails: "Agiles (SCRUM), 5S, Kan Ban, TPM",
 			skillMKTTitle: "Herramientas de Marketing",
 			skillMKTDetails:
 				"Google Ads, Google Analytics, Tag Manager, SemRush, Brevo",
 			skillIDEsTitle: "IDEs",
 			skillIDEsDetails: "Visual Studio Code, Eclipse",
-			skillOfficeTitle: "MS Office",
-			skillOfficeDetails: "Excel, Word, PowerPoint",
-			skillDesignTitle: "Software de Diseño 2D, 3D",
+			skillOfficeTitle: "MS Software",
+			skillOfficeDetails: "Excel, Word, PowerPoint, Outlook",
+			skillDesignTitle: "Software Diseño 2D, 3D",
 			skillDesignDetails: "Catia, SolidWorks, AutoCad",
-			skillOtherSoftwareTitle: "Otro Software",
-			skillOtherSoftwareDetails: "Looker Studio, Postman, MockAPI, FileZilla",
+			skillOtherSoftwareTitle: "Otros Softwares",
+			skillOtherSoftwareDetails: "Postman, MockAPI, FileZilla",
 			skillLanguagesTitle: "Idiomas",
 			skillLanguagesDetails: "Español (Nativo), Inglés (Avanzado)",
+			skillManagemntTitle: "Soft. Organizacionales",
+			skillManagemntTitleDetails: "Looker Studio, Bizagi, Trello, ClickUp",
+			skillSoftTitle: "Habilidades Blandas",
+			skillSoftDetails:
+				"Trabajo en equipo, Resolución de problemas, Creatividad, Adaptabilidad",
 
 			// Professional Experience Section
 			experienceTitle1: "Desarrollador Web y MKT Digital",
@@ -208,22 +213,22 @@ export default {
 			// Projects Section
 			projectTitle1: "Matde - Brokers de Seguros",
 			projectDescription1:
-				"Sitio web para empresa internacional de productores de seguros, hecho en: HTML, CSS, VUE.js",
+				"Sitio web para empresa internacional de productores de seguros, hecho en: HTML, CSS, Vue.js",
 			projectTitle2: "Bolsa de Empleo",
 			projectDescription2:
-				"Sitio web que une a personas interesadas en conseguir empleo, con empleadores en busca de nuevo personal, hecho en: HTML, CSS, VUE.js y MockApi como BD para CRUD de usuarios y empleos",
+				"Sitio web que une a personas interesadas en conseguir empleo, con empleadores en busca de nuevo personal, hecho en: HTML, CSS, Vue.js y MockApi como BD para CRUD de usuarios y empleos",
 			projectTitle3: "Pokedex",
 			projectDescription3:
 				"Sitio web que permite obtener informacion de cualquier Pokemon buscado por # o por nombre, con diseño retro y tambien podes escuharlos!. Hecho en HTML, CSS y Javascript",
 			projectTitle4: "Lista de Tareas",
 			projectDescription4:
-				"Sitio web cuya finalidad es listar las tareas creadas, permitiendo su edicion, borrado y marcado como resuelta. Hecho en: HTML, CSS y REACT.js",
+				"Sitio web cuya finalidad es listar las tareas creadas, permitiendo su edicion, borrado y marcado como resuelta. Hecho en: HTML, CSS y React.js",
 			projectTitle5: "Comprobador de fortaleza de Contraseñas",
 			projectDescription5:
-				"Sitio web para comprobar la fortaleza de tu contraseña. en base a los utlimos criterios en seguridad. Hecho en: HTML, CSS y REACT.js",
+				"Sitio web para comprobar la fortaleza de tu contraseña. en base a los utlimos criterios en seguridad. Hecho en: HTML, CSS y React.js",
 			projectTitle6: "Calculadora Científica & Conversor de Unidades",
 			projectDescription6:
-				"Sitio web con calculadora científica y conversor de unidades tanto internacionales como imperiales. Hecho en: HTML, CSS y VUE.js",
+				"Sitio web con calculadora científica y conversor de unidades tanto internacionales como imperiales. Hecho en: HTML, CSS y Vue.js",
 		},
 	},
 };
