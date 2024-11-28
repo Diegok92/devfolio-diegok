@@ -13,22 +13,22 @@ export default {
 			contact: "Contact",
 			download_cv: "CV",
 			aboutMe:
-				"The pandemic helped me decide to change my career, and I saw programming as a great opportunity to grow professionally. I am a responsible, diligent person with a great ability to work in a team. I am looking for a position that will provide me with new knowledge and allow me to grow in this exciting field.",
+				"The pandemic helped me decide to make a career change, and I saw programming as a great opportunity for professional development. I am a responsible, diligent person with a strong ability to work in a team. I am looking for a position that will provide me with new knowledge and help me grow in this exciting field.",
 			AchievementsTitle: "Achievements",
 			cvSectionTitle: "My CV",
 			cvSectionsubtitle:
-				"Interested in knowing more about my skills and experience?",
+				"Interested in learning more about my skills and experience?",
 			cvDownloadButton: "Download My CV",
 			contactMeTitle: "Contact Me!",
 			contactMeText:
-				"Feel free to reach out for collaborations, questions, or job opportunities! I am actively looking for roles in front-end, back-end, or full stack development.",
+				"Feel free to reach out for collaborations, questions, or job opportunities! I am actively seeking positions in front-end, back-end, or full stack development.",
 
 			// Education Section
 			educationInstitution1: "ORT Yatay",
 			educationDegree1: "Systems Analyst",
 			educationYears1: "2022 - Present",
 			educationInstitution2: "Digital House",
-			educationDegree2: "FullStack Web Dev.",
+			educationDegree2: "FullStack Web Development",
 			educationYears2: "2021 - 2022",
 			educationInstitution3: "UTN FRBA",
 			educationDegree3: "Mechanical Engineering",
@@ -44,70 +44,79 @@ export default {
 			skillFrontendTitle: "Frontend",
 			skillFrontendDetails: "HTML, CSS, JavaScript, Vue.js, React.js",
 			skillBackendTitle: "Backend",
-			skillBackendDetails: "Node.js, Express.js, Java, C#, APIs",
+			skillBackendDetails: "Javascript, Node.js, Express.js, Java, C#, APIs",
 			skillDatabasesTitle: "Databases",
 			skillDatabasesDetails:
-				"MySQL, CRUD, Table Design, SAP HANA, MS SQL Server Management Studio",
+				"MySQL, CRUD, SAP HANA, MS SQL Server Management Studio",
 			skillMethodologiesTitle: "Methodologies",
-			skillMethodologiesDetails: "Agile (SCRUM), Trello, ClickUp",
-			skillMKTTitle: "MKT. Tools",
+			skillMethodologiesDetails: "Agile (SCRUM), 5S, Kan Ban, TPM",
+			skillMKTTitle: "Marketing Tools",
 			skillMKTDetails:
 				"Google Ads, Google Analytics, Tag Manager, SemRush, Brevo",
 			skillIDEsTitle: "IDEs",
 			skillIDEsDetails: "Visual Studio Code, Eclipse",
-			skillOfficeTitle: "MS Office",
-			skillOfficeDetails: "Excel, Word, PowerPoint",
-			skillDesignTitle: "2D, 3D Design Soft.",
+			skillOfficeTitle: "MS Software",
+			skillOfficeDetails: "Excel, Word, PowerPoint, Outlook",
+			skillDesignTitle: "2D, 3D Design Software",
 			skillDesignDetails: "Catia, SolidWorks, AutoCad",
 			skillOtherSoftwareTitle: "Other Software",
-			skillOtherSoftwareDetails: "Looker Studio, Postman, MockAPI, FileZilla",
+			skillOtherSoftwareDetails: "Postman, MockAPI, FileZilla",
 			skillLanguagesTitle: "Languages",
 			skillLanguagesDetails: "Spanish (Native), English (Advanced)",
+			skillManagemntTitle: "Organizational Software",
+			skillManagemntTitleDetails: "Looker Studio, Bizagi, Trello, ClickUp",
+			skillSoftTitle: "Soft Skills",
+			skillSoftDetails: "Teamwork, Problem-solving, Creativity, Adaptability",
 
 			// Professional Experience Section
 			experienceTitle1: "Web Developer & Digital Marketing",
 			experienceCompany1: "Habi",
 			experienceLocation1: "Remote, 2024 - Present",
+			experienceTitle: "Responsibilities",
 			experienceDescription1:
-				"Web solutions for managing products on TiendaNube, managing Google Ads, Analytics, and Tag Manager for multiple clients.",
+				"Create web solutions to manage products published on TiendaNube for multiple clients, manage Google Ads, Google Analytics, and Tag Manager for different clients.",
 			experienceAchievements1:
-				"Created a CRUD API to manage products for clients on TiendaNube, website creation, and process improvements for the team.",
-			experienceTitle2: "Business Intelligence Analyst",
+				"Created a CRUD API with TiendaNube for all clients, developed websites for various clients, and implemented improvements regarding team organizational information.",
+			experienceTitle2: "Business Intelligence Analyst (BI)",
 			experienceCompany2: "Seidor Analytics",
 			experienceLocation2: "Remote, 2022 - 2023",
 			experienceDescription2:
-				"Handled user tickets with SAP HANA, BW, and SQL Server software.",
-			experienceAchievements2: "Completed internal SQL certification.",
-			experienceTitle3: "Engineering Quality Analyst, Purchased Parts",
+				"Handled user tickets and solved them using tools like SAP HANA, BW, and MS SQL Server.",
+			experienceAchievements2: "Completed SQL certification.",
+			experienceTitle3: "Engineering Analyst, Quality - Purchased Parts",
 			experienceCompany3: "Volkswagen Argentina",
 			experienceLocation3: "Pacheco, 2019 - 2021",
 			experienceDescription3:
-				"Handled line requirements (Blockage, Release, Information); Prepared reports on quality issues for the Taos model and gathered reports on failures from different plants (Assembly, Painting, Body, etc.); conformed, controlled, and tracked damages to VW due to supplier failures for Amarok. Support provided to logistics department, created criticality reports for possible part shortages in the plant based on consumption, stock, and shipments for Amarok and Taos during the pandemic.",
+				"Managed quality requirements on production line for the new model in Argentina, 'Taos' (Blockage, Release, Information) through periodic meetings with all plants and involved areas. For 'Amarok', prepared quality issue reports and gathered failure reports from different plants (Assembly, Paint, Body, etc.) to conform, control, and track damages to VW due to supplier failures. During the pandemic, also supported the international logistics department by creating criticality reports for possible part shortages in the plants based on consumption, stock, and shipments in transit.",
 			experienceAchievements3:
-				"Created new indicators and automated quality tracking reports for several departments, served as a reference in my area.",
+				"Created new quality indicators and automated tracking reports for several departments. Managed to detect and report critical part shortages for Logistics months in advance and became a point of reference for both operators and coworkers, as well as personnel from other areas.",
 			experienceTitle4: "Engineering Intern, Maintenance - Body Plant",
 			experienceCompany4: "Volkswagen Argentina",
 			experienceLocation4: "Pacheco, 2017 - 2019",
 			experienceDescription4:
-				"Design and interpretation of plans, implementation of 5S, TPM, Kan Ban in the office and plant, gathered and tracked reports on failures and solutions.",
+				"Design and interpretation of blueprints, implementation of 5S, TPM, Kan Ban in the office and plant, gathering and tracking reports on failures and solutions.",
 			experienceAchievements4:
-				"Certified in Catia V5 (3D Design) and KUKA VKRC4 (Industrial robot Programming software).",
+				"Certified in Catia V5 and KUKA VKRC4 (Industrial robot programming).",
 
 			// Projects Section
 			projectTitle1: "Matde Insurance Brokers",
-			projectDescription1: "A website for a large insurance management.",
-			projectTitle2: "BolsaTrabajos",
-			projectDescription2: "A website uniting job seekers with employers.",
+			projectDescription1:
+				"Website for an international insurance brokerage company, made with: HTML, CSS, Vue.js",
+			projectTitle2: "Job Board",
+			projectDescription2:
+				"Website that connects job seekers with employers, made with: HTML, CSS, Vue.js, and MockApi for user and job CRUD operations.",
 			projectTitle3: "Pokedex",
 			projectDescription3:
-				"A project that allows users to explore Pokémon data, even hear them!",
+				"Website that allows users to obtain information about any Pokémon by number or name, with a retro design and the ability to hear them! Made with HTML, CSS, and JavaScript.",
 			projectTitle4: "ToDo List",
-			projectDescription4: "A simple ToDo List app for managing daily tasks.",
-			projectTitle5: "Password Front Validator",
-			projectDescription5: "An online strength password frontend validator.",
+			projectDescription4:
+				"Website for listing created tasks, allowing users to edit, delete, and mark tasks as completed. Made with: HTML, CSS, and React.js.",
+			projectTitle5: "Password Strength Checker",
+			projectDescription5:
+				"Website to check the strength of your password based on the latest security criteria. Made with: HTML, CSS, and React.js.",
 			projectTitle6: "Scientific Calculator & Unit Converter",
 			projectDescription6:
-				"An online scientific calculator and a multi-unit converter (imperial & international units).",
+				"Website with a scientific calculator and a unit converter for both international and imperial units. Made with: HTML, CSS, and Vue.js.",
 		},
 	},
 	es: {
