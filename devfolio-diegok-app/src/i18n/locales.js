@@ -94,13 +94,13 @@ export default {
 				"Certified in Catia V5 (3D Design) and KUKA VKRC4 (Industrial robot Programming software).",
 
 			// Projects Section
-			projectTitle1: "SegurosMatde",
+			projectTitle1: "Matde Insurance Brokers",
 			projectDescription1: "A website for a large insurance management.",
 			projectTitle2: "BolsaTrabajos",
 			projectDescription2: "A website uniting job seekers with employers.",
 			projectTitle3: "Pokedex",
 			projectDescription3:
-				"A project that allows users to explore Pokémon data.",
+				"A project that allows users to explore Pokémon data, even hear them!",
 			projectTitle4: "ToDo List",
 			projectDescription4: "A simple ToDo List app for managing daily tasks.",
 			projectTitle5: "Password Front Validator",
@@ -127,9 +127,9 @@ export default {
 			AchievementsTitle: "Logros",
 			cvSectionTitle: "Mi CV",
 			cvSectionsubtitle:
-				"¿Interesado en saber más sobre mi experiencia y habilidades?",
+				"Interés en saber más sobre mi experiencia y habilidades?",
 			cvDownloadButton: "Descargá mi CV",
-			contactMeTitle: "¡Contactame!",
+			contactMeTitle: "Contactame!",
 			contactMeText:
 				"No dudes en contactarme para colaborar, hacer preguntas o por oportunidades laborales! Estoy buscando activamente puestos en desarrollo front-end, back-end o full stack.",
 
@@ -159,7 +159,7 @@ export default {
 			skillDatabasesDetails:
 				"MySQL, CRUD, Diseño de Tablas, SAP HANA, MS SQL Server Management Studio",
 			skillMethodologiesTitle: "Metodologías",
-			skillMethodologiesDetails: "Ágil (SCRUM), Trello, ClickUp",
+			skillMethodologiesDetails: "Agiles (SCRUM), Trello, ClickUp",
 			skillMKTTitle: "Herramientas de Marketing",
 			skillMKTDetails:
 				"Google Ads, Google Analytics, Tag Manager, SemRush, Brevo",
@@ -205,24 +205,24 @@ export default {
 				"Certificado en Catia V5 (Diseño 3D) y KUKA VKRC4 (Programación de robots industriales).",
 
 			// Projects Section
-			projectTitle1: "SegurosMatde",
+			projectTitle1: "Matde - Brokers de Seguros",
 			projectDescription1:
-				"Un sitio web para la gestión de seguros a gran escala.",
-			projectTitle2: "BolsaTrabajos",
+				"Sitio web para empresa internacional de productores de seguros",
+			projectTitle2: "Bolsa de Empleo",
 			projectDescription2:
-				"Un sitio web que une a los buscadores de empleo con los empleadores.",
+				"Sitio web que une a personas interesadas en conseguir empleo, con empleadores en busca de nuevo personal",
 			projectTitle3: "Pokedex",
 			projectDescription3:
-				"Un proyecto que permite a los usuarios explorar datos de Pokémon.",
+				"Sitio web que permite obtener informacion de cualquier Pokemon buscado por # o por nombre, tambien podes escuharlos!",
 			projectTitle4: "Lista de Tareas",
 			projectDescription4:
-				"Una aplicación sencilla de lista de tareas para gestionar tareas diarias.",
-			projectTitle5: "Validador de Contraseñas Front",
+				"Sitio web cuya finalidad es listar tus tareas diarias, permitiendo su edicion, borrado y marcado como resuelta",
+			projectTitle5: "Comprobador de fortaleza de Contraseñas",
 			projectDescription5:
-				"Un validador online de la fortaleza de contraseñas en frontend.",
+				"Sitio web para comprobar la fortaleza de tu contraseña. en base a los utlimos criterios en seguridad",
 			projectTitle6: "Calculadora Científica & Conversor de Unidades",
 			projectDescription6:
-				"Una calculadora científica online y un conversor de múltiples unidades (unidades imperiales e internacionales).",
+				"Sitio web con calculadora científica y conversor de unidades tanto internacionales como imperiales.",
 		},
 	},
 };
