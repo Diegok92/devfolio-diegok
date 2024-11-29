@@ -19,9 +19,9 @@
 		<!-- About Section -->
 		<div id="about" class="about-section text-center py-5" data-aos="fade-up">
 			<div class="about-container mx-auto p-4">
-				<h2 class="mb-4">
-					<i class="fas fa-user"></i> {{ $t("message.aboutMeTitle") }}
-				</h2>
+				<h3 class="mb-4">
+					<i class="fas fa-user me-2"></i> {{ $t("message.aboutMeTitle") }}
+				</h3>
 				<p class="about-text">
 					<i class="fas fa-quote-left"></i>
 					{{ $t("message.aboutMe") }}
@@ -30,7 +30,7 @@
 			</div>
 		</div>
 
-		<!-- Professional Experience & Education & Skills Section -->
+		<!-- Professional Experience Section -->
 		<div
 			id="experience-education"
 			class="experience-education-section py-5"
@@ -38,13 +38,21 @@
 		>
 			<div class="container">
 				<div class="row">
-					<!-- Professional Experience Section -->
+					<!-- Experience Toggle Section -->
 					<div class="col-md-6">
-						<h2 class="text-center mb-4">
-							<i class="fas fa-briefcase"></i>
+						<h2
+							class="text-center mb-4 toggle-header"
+							@click="toggleExperience"
+						>
+							<i class="fas fa-briefcase me-2"></i>
 							{{ $t("message.experience") }}
+							<i
+								:class="
+									isExperienceOpen ? 'fas fa-chevron-up' : 'fas fa-chevron-down'
+								"
+							></i>
 						</h2>
-						<div class="timeline">
+						<div v-if="isExperienceOpen" class="timeline">
 							<div v-for="n in 4" :key="n" class="timeline-item">
 								<div class="timeline-content">
 									<h4 class="experience-title">
@@ -69,31 +77,42 @@
 						</div>
 					</div>
 
-					<!-- Education & Skills Section -->
+					<!-- Education Toggle Section -->
 					<div class="col-md-6">
-						<!-- Education Section -->
-						<h2 class="text-center mb-4">
-							<i class="fas fa-graduation-cap"></i>
+						<h2 class="text-center mb-4 toggle-header" @click="toggleEducation">
+							<i class="fas fa-graduation-cap me-2"></i>
 							{{ $t("message.education") }}
+							<i
+								:class="
+									isEducationOpen ? 'fas fa-chevron-up' : 'fas fa-chevron-down'
+								"
+							></i>
 						</h2>
-						<div class="education-list text-center">
-							<div v-for="n in 5" :key="n" class="education-item">
-								<h4>
-									{{ $t(`message.educationInstitution${n}`) }} -
-									<span class="degree">{{
-										$t(`message.educationDegree${n}`)
-									}}</span>
-									({{ $t(`message.educationYears${n}`) }})
-								</h4>
+						<div v-if="isEducationOpen" class="education-container mx-auto p-4">
+							<div class="education-list text-center">
+								<div v-for="n in 5" :key="n" class="education-item">
+									<h5>
+										{{ $t(`message.educationInstitution${n}`) }} -
+										<span class="degree">{{
+											$t(`message.educationDegree${n}`)
+										}}</span>
+										({{ $t(`message.educationYears${n}`) }})
+									</h5>
+								</div>
 							</div>
 						</div>
 
-						<!-- Skills Section -->
-						<h2 class="text-center mt-5">
-							<i class="fas fa-tools"></i>
+						<!-- Skills Toggle Section -->
+						<h2 class="text-center mt-5 toggle-header" @click="toggleSkills">
+							<i class="fas fa-tools me-2"></i>
 							{{ $t("message.skillsSectionTitle") }}
+							<i
+								:class="
+									isSkillsOpen ? 'fas fa-chevron-up' : 'fas fa-chevron-down'
+								"
+							></i>
 						</h2>
-						<div class="skills-grid mt-4">
+						<div v-if="isSkillsOpen" class="skills-grid mt-4">
 							<div
 								v-for="(detailKey, titleKey) in skillMapping"
 								:key="titleKey"
@@ -109,13 +128,19 @@
 			</div>
 		</div>
 
-		<!-- Projects Section -->
+		<!-- Projects Toggle Section -->
 		<div id="projects" class="projects-section py-5">
-			<h2 class="text-center mb-5" data-aos="fade-up">
-				<i class="fas fa-folder-open"></i>
+			<h2 class="text-center mb-5 toggle-header" @click="toggleProjects">
+				<i class="fas fa-folder-open me-2"></i>
 				{{ $t("message.projectsSectionTitlePage") }}
+				<i
+					:class="isProjectsOpen ? 'fas fa-chevron-up' : 'fas fa-chevron-down'"
+				></i>
 			</h2>
-			<div class="d-flex flex-wrap justify-content-center">
+			<div
+				v-if="isProjectsOpen"
+				class="d-flex flex-wrap justify-content-center"
+			>
 				<ProjectCard
 					v-for="n in 6"
 					:key="n"
@@ -134,7 +159,8 @@
 		<!-- CV Section -->
 		<div id="cv" class="cv-section text-center py-5" data-aos="fade-up">
 			<h2 class="text-white">
-				<i class="fas fa-file-alt"></i> {{ $t("message.cvSectionTitle") }}
+				<i class="fas fa-file-alt me-2"></i>
+				{{ $t("message.cvSectionTitle") }}
 			</h2>
 			<p class="lead text-white">
 				<i class="fas fa-info-circle"></i> {{ $t("message.cvSectionsubtitle") }}
@@ -154,7 +180,7 @@
 				<div class="row">
 					<div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
 						<h2>
-							<i class="fas fa-address-book"></i>
+							<i class="fas fa-address-book me-2"></i>
 							{{ $t("message.contactMeTitle") }}
 						</h2>
 						<p class="lead">
@@ -216,6 +242,10 @@ export default {
 	},
 	data() {
 		return {
+			isExperienceOpen: false,
+			isEducationOpen: false,
+			isSkillsOpen: false,
+			isProjectsOpen: false,
 			skillMapping: {
 				skillFrontendTitle: "skillFrontendDetails",
 				skillBackendTitle: "skillBackendDetails",
@@ -283,6 +313,20 @@ export default {
 	mounted() {
 		AOS.init();
 	},
+	methods: {
+		toggleExperience() {
+			this.isExperienceOpen = !this.isExperienceOpen;
+		},
+		toggleEducation() {
+			this.isEducationOpen = !this.isEducationOpen;
+		},
+		toggleSkills() {
+			this.isSkillsOpen = !this.isSkillsOpen;
+		},
+		toggleProjects() {
+			this.isProjectsOpen = !this.isProjectsOpen;
+		},
+	},
 };
 </script>
 
@@ -323,10 +367,14 @@ export default {
 	font-size: 1.1em;
 	line-height: 1.6;
 }
-.experience-education-section .container {
+.toggle-header,
+.projects-header {
+	cursor: pointer;
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5em;
+	gap: 8px;
 }
 .timeline {
 	position: relative;
@@ -421,5 +469,13 @@ export default {
 .btn-whatsapp {
 	background-color: #25d366;
 	color: white;
+}
+.education-container {
+	background: #f8f9fa;
+	border-radius: 8px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+	max-width: 700px;
+	padding: 20px;
+	margin: 0 auto 30px auto;
 }
 </style>
