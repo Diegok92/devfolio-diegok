@@ -29,7 +29,7 @@ export default {
 			educationYears1: "2022 - Present",
 			educationInstitution2: "Digital House",
 			educationDegree2: "FullStack Web Development",
-			educationYears2: "2021 - 2022",
+			educationYears2: "'21 - '22",
 			educationInstitution3: "UTN FRBA",
 			educationDegree3: "Mechanical Engineering",
 			educationYears3: "2014 - 2021",

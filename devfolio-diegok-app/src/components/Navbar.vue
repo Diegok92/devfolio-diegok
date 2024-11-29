@@ -1,5 +1,7 @@
 <template>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+	<nav
+		class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top"
+	>
 		<div class="container-fluid">
 			<a class="navbar-brand" href="#">Diego K. DevFolio</a>
 			<button
@@ -87,5 +89,6 @@ export default {
 <style scoped>
 .navbar {
 	font-size: 1.2em;
+	z-index: 1000; /* Mantener el navbar encima del contenido */
 }
 </style>
