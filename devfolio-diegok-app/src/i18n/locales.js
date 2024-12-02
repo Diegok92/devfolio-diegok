@@ -99,22 +99,22 @@ export default {
 				"Certified in Catia V5 and KUKA VKRC4 (Industrial robot programming).",
 
 			// Projects Section
-			projectTitle1: "Matde Insurance Brokers",
+			projectTitle1: "Insurance Brokers - Vue.js",
 			projectDescription1:
 				"Website for an international insurance brokerage company, made with: HTML, CSS, Vue.js",
-			projectTitle2: "Job Board",
+			projectTitle2: "Job Board - Vue.js",
 			projectDescription2:
 				"Website that connects job seekers with employers, made with: HTML, CSS, Vue.js, and MockApi for user and job CRUD operations.",
-			projectTitle3: "Pokedex",
+			projectTitle3: "Pokedex - .Js",
 			projectDescription3:
 				"Website that allows users to obtain information about any Pokémon by number or name, with a retro design and the ability to hear them! Made with HTML, CSS, and JavaScript.",
-			projectTitle4: "ToDo List",
+			projectTitle4: "ToDo List - React.js",
 			projectDescription4:
 				"Website for listing created tasks, allowing users to edit, delete, and mark tasks as completed. Made with: HTML, CSS, and React.js.",
-			projectTitle5: "Password Strength Checker",
+			projectTitle5: "Password Strength Checker - React.js",
 			projectDescription5:
 				"Website to check the strength of your password based on the latest security criteria. Made with: HTML, CSS, and React.js.",
-			projectTitle6: "Scientific Calculator & Unit Converter",
+			projectTitle6: "Scientific Calculator & Unit Converter - Vue.js",
 			projectDescription6:
 				"Website with a scientific calculator and a unit converter for both international and imperial units. Made with: HTML, CSS, and Vue.js.",
 		},
@@ -220,24 +220,24 @@ export default {
 				"Certificación en Catia V5 y KUKA VKRC4 (Programación de robots industriales).",
 
 			// Projects Section
-			projectTitle1: "Matde - Brokers de Seguros",
+			projectTitle1: "Brokers de Seguros - Vue.js",
 			projectDescription1:
-				"Sitio web para empresa internacional de productores de seguros, hecho en: HTML, CSS, Vue.js",
-			projectTitle2: "Bolsa de Empleo",
+				"Sitio web para empresa internacional de productores de seguros, hecho con Vue.js",
+			projectTitle2: "Bolsa de Empleo - Vue.js",
 			projectDescription2:
-				"Sitio web que une a personas interesadas en conseguir empleo, con empleadores en busca de nuevo personal, hecho en: HTML, CSS, Vue.js y MockApi como BD para CRUD de usuarios y empleos",
-			projectTitle3: "Pokedex",
+				"Sitio web que une a personas interesadas en conseguir empleo, con empleadores en busca de nuevo personal, hecho con Vue.js y MockApi como base de datos para los A.B.M. (C.R.U.D.) ",
+			projectTitle3: "Pokedex - .Js",
 			projectDescription3:
 				"Sitio web que permite obtener informacion de cualquier Pokemon buscado por # o por nombre, con diseño retro y tambien podes escuharlos!. Hecho en HTML, CSS y Javascript",
-			projectTitle4: "Lista de Tareas",
+			projectTitle4: "Lista de Tareas - React.js",
 			projectDescription4:
-				"Sitio web cuya finalidad es listar las tareas creadas, permitiendo su edicion, borrado y marcado como resuelta. Hecho en: HTML, CSS y React.js",
-			projectTitle5: "Comprobador de fortaleza de Contraseñas",
+				"Sitio web cuya finalidad es listar las tareas creadas, permitiendo su edicion, borrado y marcado como resuelta. Hecho con React.js",
+			projectTitle5: "Comprobador de fortaleza de Contraseñas - React.js",
 			projectDescription5:
-				"Sitio web para comprobar la fortaleza de tu contraseña. en base a los utlimos criterios en seguridad. Hecho en: HTML, CSS y React.js",
-			projectTitle6: "Calculadora Científica & Conversor de Unidades",
+				"Sitio web para comprobar la fortaleza de tu contraseña. en base a los utlimos criterios en seguridad. Hecho con React.js",
+			projectTitle6: "Calculadora Científica & Conversor de Unidades - Vue.js",
 			projectDescription6:
-				"Sitio web con calculadora científica y conversor de unidades tanto internacionales como imperiales. Hecho en: HTML, CSS y Vue.js",
+				"Sitio web con calculadora científica y conversor de unidades tanto internacionales como imperiales. Hecho con Vue.js",
 		},
 	},
 };
