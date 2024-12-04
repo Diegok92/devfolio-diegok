@@ -11,9 +11,7 @@
 			<h1 class="text-white">
 				<i class="fas fa-code"></i> {{ $t("message.hello") }}
 			</h1>
-			<p class="lead text-accent">
-				{{ $t("message.subtitle") }}
-			</p>
+			<p class="lead text-accent">{{ $t("message.subtitle") }}</p>
 		</div>
 
 		<!-- About Section -->
@@ -166,7 +164,7 @@
 				<i class="fas fa-info-circle"></i> {{ $t("message.cvSectionsubtitle") }}
 			</p>
 			<a
-				href="/devfolio-diegok/KleimanDiegoCV.pdf"
+				:href="cvUrl"
 				download
 				class="btn btn-outline-light btn-lg mt-3 shadow"
 			>
@@ -240,6 +238,12 @@ export default {
 	components: {
 		ProjectCard,
 	},
+	props: {
+		currentLocale: {
+			type: String,
+			required: true,
+		},
+	},
 	data() {
 		return {
 			isExperienceOpen: false,
@@ -309,6 +313,14 @@ export default {
 				},
 			],
 		};
+	},
+	computed: {
+		cvUrl() {
+			// retorna CV segun el idioma seleccionado
+			return this.currentLocale === "en"
+				? "/devfolio-diegok/KleimanDiegoCV_Eng.pdf"
+				: "/devfolio-diegok/KleimanDiegoCV.pdf";
+		},
 	},
 	mounted() {
 		AOS.init();

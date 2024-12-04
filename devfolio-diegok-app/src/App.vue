@@ -1,7 +1,7 @@
 <template>
 	<div id="app">
-		<Navbar />
-		<Home />
+		<Navbar @language-changed="handleLanguageChange" />
+		<Home :currentLocale="currentLocale" />
 		<Footer />
 	</div>
 </template>
@@ -17,6 +17,16 @@ export default {
 		Navbar,
 		Home,
 		Footer,
+	},
+	data() {
+		return {
+			currentLocale: this.$i18n.locale,
+		};
+	},
+	methods: {
+		handleLanguageChange(newLocale) {
+			this.currentLocale = newLocale;
+		},
 	},
 };
 </script>

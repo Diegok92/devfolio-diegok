@@ -81,6 +81,7 @@ export default {
 		changeLanguage(locale) {
 			this.$i18n.locale = locale;
 			this.currentLanguage = locale === "es" ? "Español" : "English";
+			this.$emit("language-changed", locale);
 		},
 	},
 };
@@ -89,7 +90,7 @@ export default {
 <style scoped>
 .navbar {
 	font-size: 1.1em;
-	z-index: 1000; /* Mantener el navbar encima del contenido */
+	z-index: 1000;
 	max-height: 50px;
 }
 </style>
