@@ -93,4 +93,8 @@ export default {
 	z-index: 1000;
 	max-height: 50px;
 }
+
+#navbarNav {
+	background-color: #007bff;
+}
 </style>
