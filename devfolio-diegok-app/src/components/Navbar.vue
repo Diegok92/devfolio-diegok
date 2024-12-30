@@ -2,7 +2,7 @@
 	<nav
 		class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top"
 	>
-		<div class="container-fluid">
+		<div class="container-fluid" id="logo">
 			<a class="navbar-brand" href="#">Diego K. DevFolio</a>
 			<button
 				class="navbar-toggler"
@@ -94,7 +94,11 @@ export default {
 	max-height: 50px;
 }
 
+Nav {
+	background: linear-gradient(135deg, #007bff, #6610f2);
+}
+
 #navbarNav {
-	background-color: #007bff;
+	background: linear-gradient(135deg, #007bff, #6610f2);
 }
 </style>
