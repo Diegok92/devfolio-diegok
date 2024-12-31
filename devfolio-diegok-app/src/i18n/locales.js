@@ -71,7 +71,7 @@ export default {
 			// Professional Experience Section
 			experienceTitle1: "Web Developer & Digital Marketing",
 			experienceCompany1: "Habi",
-			experienceLocation1: "Remote, 2024 - Present",
+			experienceLocation1: "CABA, 2024 - Present",
 			experienceTitle: "Responsibilities",
 			experienceDescription1:
 				"Create web solutions to manage products published on TiendaNube for multiple clients, manage Google Ads, Google Analytics, and Tag Manager for different clients.",
@@ -79,7 +79,7 @@ export default {
 				"Created a CRUD API with TiendaNube for all clients, developed websites for various clients, and implemented improvements regarding team organizational information.",
 			experienceTitle2: "Business Intelligence Analyst (BI)",
 			experienceCompany2: "Seidor Analytics",
-			experienceLocation2: "Remote, 2022 - 2023",
+			experienceLocation2: "CABA, 2022 - 2023",
 			experienceDescription2:
 				"Handled user tickets and solved them using tools like SAP HANA, BW, and MS SQL Server.",
 			experienceAchievements2: "Completed SQL certification.",
@@ -191,7 +191,7 @@ export default {
 			// Professional Experience Section
 			experienceTitle1: "Desarrollador Web y MKT Digital",
 			experienceCompany1: "Habi",
-			experienceLocation1: "Remoto, 2024 - Presente",
+			experienceLocation1: "CABA, 2024 - Presente",
 			experienceTitle: "Responsabilidades",
 			experienceDescription1:
 				"Crear soluciones web para administrar los productos publicados en TiendaNube de todos los clientes, Manejar Google Ads, Google Analytcs y TagManager para diversos clientes",
@@ -199,7 +199,7 @@ export default {
 				"Creación API (CRUD) con TiendaNube para todos los clientes, Creación de paginas web para diversos clientes e implementación de mejoras con respecto a la información organizacional de los equipos de trabajo",
 			experienceTitle2: "Analista de Inteligencia de Negocios (BI)",
 			experienceCompany2: "Seidor Analytics",
-			experienceLocation2: "Remoto, 2022 - 2023",
+			experienceLocation2: "CABA, 2022 - 2023",
 			experienceDescription2:
 				"Atender tickets de usuarios y resolverlos mediante las herramientas: SAP HANA, BW y MS SQL Server.",
 			experienceAchievements2: "Certificación en SQL.",
