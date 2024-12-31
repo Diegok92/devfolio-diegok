@@ -140,7 +140,7 @@ export default {
 			cvDownloadButton: "Descargar mi CV",
 			contactMeTitle: "Contactame!",
 			contactMeText:
-				"No dudes en contactarme para colaboraraciones ó por oportunidades laborales! Estoy buscando activamente puestos en desarrollo front-end, back-end o full stack.",
+				"No dudes en contactarme para colaboraraciones o por oportunidades laborales! Estoy buscando activamente puestos en desarrollo front-end, back-end o full stack.",
 
 			// Education Section
 			educationInstitution1: "ORT Yatay",
