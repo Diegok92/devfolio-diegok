@@ -1,39 +1,41 @@
-<template>
-	<div id="app">
-		<Navbar @language-changed="handleLanguageChange" />
-		<Home :currentLocale="currentLocale" />
-		<Footer />
-	</div>
-</template>
+<script setup>
+import { onMounted } from "vue";
+import { useI18n } from "vue-i18n";
+import TheNavbar from "./components/TheNavbar.vue";
+import TheFooter from "./components/TheFooter.vue";
+import HeroSection from "./sections/HeroSection.vue";
+import AboutSection from "./sections/AboutSection.vue";
+import ExperienceSection from "./sections/ExperienceSection.vue";
+import ProjectsSection from "./sections/ProjectsSection.vue";
+import ProcessSection from "./sections/ProcessSection.vue";
+import SkillsSection from "./sections/SkillsSection.vue";
+import ServicesSection from "./sections/ServicesSection.vue";
+import ContactSection from "./sections/ContactSection.vue";
+import { applyDocumentLocale } from "./i18n/index.js";
 
-<script>
-import Navbar from "./components/Navbar.vue";
-import Home from "./views/Home.vue";
-import Footer from "./components/Footer.vue";
+const { t } = useI18n();
 
-export default {
-	name: "App",
-	components: {
-		Navbar,
-		Home,
-		Footer,
-	},
-	data() {
-		return {
-			currentLocale: this.$i18n.locale,
-		};
-	},
-	methods: {
-		handleLanguageChange(newLocale) {
-			this.currentLocale = newLocale;
-		},
-	},
-};
+onMounted(() => applyDocumentLocale());
 </script>
 
-<style>
-body {
-	font-family: Arial, sans-serif;
-	background-color: #ffffff;
-}
-</style>
+<template>
+	<div class="app-shell">
+		<a class="skip-link" href="#main">{{ t("a11y.skipToContent") }}</a>
+
+		<TheNavbar />
+
+		<main id="main">
+			<HeroSection />
+			<AboutSection />
+
+			<ProcessSection />
+			<SkillsSection />
+			<ExperienceSection />
+			<ProjectsSection />
+			<ServicesSection />
+			<ContactSection />
+		</main>
+
+		<TheFooter />
+	</div>
+</template>

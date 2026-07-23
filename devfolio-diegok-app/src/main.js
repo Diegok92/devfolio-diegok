@@ -1,19 +1,9 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-import { createI18n } from "vue-i18n";
-import messages from "./i18n/locales.js";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap";
-import "@fortawesome/fontawesome-free/css/all.css";
-import "@fortawesome/fontawesome-free/js/all.js";
+import { i18n } from "./i18n/index.js";
+import { reveal } from "./directives/reveal.js";
 
-// Crear instancia de i18n
-const i18n = createI18n({
-	locale: "es", // Idioma por defecto: español
-	fallbackLocale: "en", // Idioma de respaldo
-	messages,
-});
+import "./styles/tokens.css";
+import "./styles/base.css";
 
-const app = createApp(App);
-app.use(i18n);
-app.mount("#app");
+createApp(App).use(i18n).directive("reveal", reveal).mount("#app");
