@@ -8,13 +8,15 @@ const { t } = useI18n();
 
 const stats = [
 	{ value: "5", key: "stat1" },
+	{ value: "12", key: "stat3" },
 	{ value: "+8", key: "stat2" },
+	{ value: "3", key: "stat4" },
 ];
 
 const links = [
-	{ icon: "github", href: social.github, label: "GitHub" },
 	{ icon: "linkedin", href: social.linkedin, label: "LinkedIn" },
 	{ icon: "mail", href: `mailto:${social.email}`, label: "Email" },
+	{ icon: "whatsapp", href: social.whatsapp, label: "WhatsApp" },
 ];
 </script>
 

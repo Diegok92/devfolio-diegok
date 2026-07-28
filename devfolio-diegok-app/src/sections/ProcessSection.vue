@@ -20,6 +20,7 @@ const steps = [
 				:eyebrow="t('process.eyebrow')"
 				:title="t('process.title')"
 				:subtitle="t('process.subtitle')"
+				wide
 			/>
 
 			<ol class="process">

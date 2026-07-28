@@ -4,11 +4,16 @@ defineProps({
 	title: { type: String, required: true },
 	subtitle: { type: String, default: "" },
 	align: { type: String, default: "start" },
+	wide: { type: Boolean, default: false },
 });
 </script>
 
 <template>
-	<header class="heading" :class="`heading--${align}`" v-reveal>
+	<header
+		class="heading"
+		:class="[`heading--${align}`, { 'heading--wide': wide }]"
+		v-reveal
+	>
 		<p v-if="eyebrow" class="eyebrow">{{ eyebrow }}</p>
 		<h2 class="heading__title">{{ title }}</h2>
 		<p v-if="subtitle" class="heading__subtitle">{{ subtitle }}</p>
@@ -19,6 +24,20 @@ defineProps({
 .heading {
 	margin-bottom: var(--sp-7);
 	max-width: 62ch;
+}
+
+.heading--wide {
+	max-width: none;
+}
+
+.heading--wide .heading__title {
+	white-space: nowrap;
+}
+
+@media (max-width: 560px) {
+	.heading--wide .heading__title {
+		white-space: normal;
+	}
 }
 
 .heading--center {

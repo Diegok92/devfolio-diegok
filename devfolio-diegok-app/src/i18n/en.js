@@ -1,6 +1,6 @@
 export default {
 	meta: {
-		title: "Diego Kleiman — Web Developer & Functional Analyst",
+		title: "Diego Kleiman - Web Developer & Functional Analyst",
 		description:
 			"Full stack web developer and functional analyst. Process discovery, automation and custom software for small and medium businesses. Certified TiendaNube Partner.",
 	},
@@ -29,12 +29,14 @@ export default {
 		ctaContact: "Get in touch",
 		stat1: "stores in production",
 		stat2: "years of professional experience",
+		stat3: "custom builds delivered",
+		stat4: "roles at multinational companies",
 	},
 
 	about: {
 		eyebrow: "About me",
-		title: "Between the business and the technology",
-		p1: "I come from mechanical engineering. Four years at Volkswagen — first as a maintenance intern, then as a quality analyst — taught me to look at a process, find where it breaks and turn it into something measurable.",
+		title: "Between Business and Technology",
+		p1: "I come from mechanical engineering. Five years at Volkswagen, first as a maintenance intern and then as a quality analyst, taught me to look at a process, find where it breaks and turn it into something measurable.",
 		p2: "Then I moved into Business Intelligence, supporting corporate users on SAP and SQL Server. That's where it clicked: the hard part is almost never the tool, it's understanding what the person asking actually needs.",
 		p3: "Today I work on both ends. As a freelance developer I build and run online stores, and with two partners I'm building HCD, a venture bringing automation, AI chatbots and management dashboards to small and medium businesses.",
 		p4: "What interests me are the projects where you have to understand the business before writing a line of code. I work with clients independently and I also join teams, as a developer or as a functional analyst.",
@@ -42,8 +44,9 @@ export default {
 		focusLabel: "Profile",
 		focusValue: "Web development · Functional analysis · Automation",
 		studyLabel: "Studies",
-		studyValue:
-			"Programmer Analyst (ORT) — graduated · studying Systems Analyst",
+		studyInstitution: "ORT",
+		study1: "Programmer Analyst - Completed",
+		study2: "Systems Analyst - finishing Dec 2026",
 	},
 
 	projects: {
@@ -81,27 +84,16 @@ export default {
 			description:
 				"An app to import, update and audit catalogues on any TiendaNube store. I built it because doing it by hand doesn't scale.",
 		},
-		scraper: {
-			title: "Marketplace scraper",
-			description:
-				"Extracts products already listed on a marketplace: it walks the catalogue, assembles each product record and leaves the data ready to import into another platform.",
-		},
 		matde: {
-			title: "Matde — Insurance brokers",
+			title: "Matde - Insurance brokers",
 			description:
 				"Corporate website for an international insurance brokerage firm, live on its own domain.",
-		},
-		bolsaEmpleo: {
-			title: "Job Board",
-			client: "Academic project",
-			description:
-				"Platform connecting job seekers with employers, with full CRUD for users and listings.",
 		},
 	},
 
 	resume: {
 		eyebrow: "Background",
-		title: "Experience & education",
+		title: "Experience & Education",
 		experienceTitle: "Professional experience",
 		educationTitle: "Education",
 		certificationsTitle: "Certifications",
@@ -155,7 +147,7 @@ export default {
 			],
 		},
 		vwQuality: {
-			role: "Engineering Analyst — Quality",
+			role: "Engineering Analyst - Quality",
 			company: "Volkswagen Argentina",
 			location: "Pacheco, Buenos Aires",
 			description:
@@ -167,7 +159,7 @@ export default {
 			],
 		},
 		vwIntern: {
-			role: "Engineering Intern — Maintenance",
+			role: "Engineering Intern - Maintenance",
 			company: "Volkswagen Argentina",
 			location: "Pacheco, Buenos Aires",
 			description:
@@ -180,7 +172,7 @@ export default {
 		ortSistemas: {
 			institution: "ORT",
 			degree: "Systems Analyst",
-			note: "In progress — 3 subjects left to graduate",
+			note: "In progress",
 		},
 		ortProgramador: {
 			institution: "ORT",
@@ -189,17 +181,24 @@ export default {
 		},
 		digitalHouse: {
 			institution: "Digital House",
-			degree: "Full Stack Web Development",
-			note: 'Final project: "Services Marketplace", a full SPA with its own API',
+			degree: "Full Stack Web Developer",
+			note: "Certification obtained",
+			name: "Full Stack Web Developer",
+			issuer: "Digital House",
 		},
 		utnMec: {
 			institution: "UTN FRBA",
 			degree: "Mechanical Engineering",
 			note: "Advanced coursework, not completed",
 		},
+		utnElectronica: {
+			institution: "UTN FRBA",
+			degree: "Electronic Engineering",
+			note: "Coursework, not completed",
+		},
 		ortSecundario: {
 			institution: "ORT",
-			degree: "Technical high school — Electronics",
+			degree: "Technical high school - Electronics",
 			note: "",
 		},
 
@@ -216,7 +215,7 @@ export default {
 
 	process: {
 		eyebrow: "How I work",
-		title: "Understand first, build second",
+		title: "Understand First, Build Second",
 		subtitle:
 			"The same method, whether it's custom software or a process improvement.",
 		relevar: {
@@ -243,7 +242,7 @@ export default {
 
 	skills: {
 		eyebrow: "Toolbox",
-		title: "Technologies & skills",
+		title: "Technologies & Skills",
 		subtitle: "What I use today, ordered by how much of my week it takes up.",
 		functional: "Functional analysis",
 		frontend: "Frontend",
@@ -286,7 +285,7 @@ export default {
 
 	contact: {
 		eyebrow: "Contact",
-		title: "Let's work together",
+		title: "Let's Work Together",
 		text: "I take on freelance projects and I also join teams, whether as a developer or as a functional analyst. If you have something in mind, reach out however suits you best.",
 		email: "Email",
 		linkedin: "LinkedIn",

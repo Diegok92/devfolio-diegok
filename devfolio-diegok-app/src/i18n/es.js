@@ -1,6 +1,6 @@
 export default {
 	meta: {
-		title: "Diego Kleiman — Desarrollador Web y Analista Funcional",
+		title: "Diego Kleiman - Desarrollador Web y Analista Funcional",
 		description:
 			"Desarrollador web full stack y analista funcional. Relevamiento de procesos, automatización y desarrollo de soluciones para PyMEs. Partner certificado de TiendaNube.",
 	},
@@ -29,12 +29,14 @@ export default {
 		ctaContact: "Contactame",
 		stat1: "tiendas en producción",
 		stat2: "años de experiencia profesional",
+		stat3: "desarrollos personalizados",
+		stat4: "experiencias en multinacionales",
 	},
 
 	about: {
 		eyebrow: "Sobre mí",
-		title: "Entre el negocio y la tecnología",
-		p1: "Vengo de la ingeniería mecánica. Cuatro años en Volkswagen —primero como pasante en mantenimiento, después como analista de calidad— me enseñaron a mirar un proceso, encontrar dónde se rompe y traducirlo en algo medible.",
+		title: "Entre el Negocio y la Tecnología",
+		p1: "Vengo de la ingeniería mecánica. Cinco años en Volkswagen, primero como pasante en mantenimiento y después como analista de calidad, me enseñaron a mirar un proceso, encontrar dónde se rompe y traducirlo en algo medible.",
 		p2: "Después pasé a Business Intelligence, atendiendo a usuarios de empresas sobre SAP y SQL Server. Ahí terminé de entender que lo difícil casi nunca es la herramienta: es entender qué necesita realmente la persona que te está pidiendo algo.",
 		p3: "Hoy trabajo en las dos puntas. Como desarrollador freelance construyo y administro tiendas online, y junto a dos socios estoy armando HCD, un proyecto para llevar automatización, chatbots con IA y tableros de gestión a las PyMEs.",
 		p4: "Me interesan los proyectos donde haya que entender el negocio antes de escribir una línea de código. Trabajo con clientes de forma independiente y también me sumo a equipos, como desarrollador o como analista funcional.",
@@ -42,8 +44,9 @@ export default {
 		focusLabel: "Perfil",
 		focusValue: "Desarrollo web · Análisis funcional · Automatización",
 		studyLabel: "Estudios",
-		studyValue:
-			"Analista Programador (ORT) — titulado · cursando Analista de Sistemas",
+		studyInstitution: "ORT",
+		study1: "Analista Programador - Finalizado",
+		study2: "Analista de Sistemas - finalización dic 2026",
 	},
 
 	projects: {
@@ -82,27 +85,16 @@ export default {
 			description:
 				"App para cargar, actualizar y auditar catálogos de cualquier tienda TiendaNube. La construí porque hacerlo a mano no escala.",
 		},
-		scraper: {
-			title: "Scrapeador de marketplaces",
-			description:
-				"Extractor de productos ya publicados en un marketplace: recorre el catálogo, arma la ficha de cada producto y deja los datos listos para importar en otra plataforma.",
-		},
 		matde: {
-			title: "Matde — Productores de seguros",
+			title: "Matde - Productores de seguros",
 			description:
 				"Sitio institucional para una empresa internacional de productores de seguros, en producción bajo su propio dominio.",
-		},
-		bolsaEmpleo: {
-			title: "Bolsa de Empleo",
-			client: "Proyecto académico",
-			description:
-				"Plataforma que conecta personas que buscan trabajo con empleadores, con CRUD completo de usuarios y avisos.",
 		},
 	},
 
 	resume: {
 		eyebrow: "Trayectoria",
-		title: "Experiencia y formación",
+		title: "Experiencia y Formación",
 		experienceTitle: "Experiencia profesional",
 		educationTitle: "Formación",
 		certificationsTitle: "Certificaciones",
@@ -156,7 +148,7 @@ export default {
 			],
 		},
 		vwQuality: {
-			role: "Analista de Ingeniería — Calidad",
+			role: "Analista de Ingeniería - Calidad",
 			company: "Volkswagen Argentina",
 			location: "Pacheco, Buenos Aires",
 			description:
@@ -168,7 +160,7 @@ export default {
 			],
 		},
 		vwIntern: {
-			role: "Pasante de Ingeniería — Mantenimiento",
+			role: "Pasante de Ingeniería - Mantenimiento",
 			company: "Volkswagen Argentina",
 			location: "Pacheco, Buenos Aires",
 			description:
@@ -181,7 +173,7 @@ export default {
 		ortSistemas: {
 			institution: "ORT",
 			degree: "Analista de Sistemas",
-			note: "En curso — me quedan 3 materias para el título",
+			note: "En curso",
 		},
 		ortProgramador: {
 			institution: "ORT",
@@ -190,17 +182,24 @@ export default {
 		},
 		digitalHouse: {
 			institution: "Digital House",
-			degree: "Desarrollo Web Full Stack",
-			note: 'Proyecto final: "Marketplace de Servicios", una SPA completa con API propia',
+			degree: "Desarrollador Web Full Stack",
+			note: "Certificación obtenida",
+			name: "Desarrollador Web Full Stack",
+			issuer: "Digital House",
 		},
 		utnMec: {
 			institution: "UTN FRBA",
 			degree: "Ingeniería Mecánica",
 			note: "Cursada avanzada, no finalizada",
 		},
+		utnElectronica: {
+			institution: "UTN FRBA",
+			degree: "Ingeniería Electrónica",
+			note: "Cursada, no finalizada",
+		},
 		ortSecundario: {
 			institution: "ORT",
-			degree: "Secundario técnico — Electrónica",
+			degree: "Secundario técnico - Electrónica",
 			note: "",
 		},
 
@@ -217,7 +216,7 @@ export default {
 
 	process: {
 		eyebrow: "Cómo trabajo",
-		title: "Primero entender, después construir",
+		title: "Primero Entender, Después Construir",
 		subtitle:
 			"El mismo método, sea un desarrollo a medida o una mejora de proceso.",
 		relevar: {
@@ -244,7 +243,7 @@ export default {
 
 	skills: {
 		eyebrow: "Herramientas",
-		title: "Tecnologías y habilidades",
+		title: "Tecnologías y Habilidades",
 		subtitle: "Lo que uso hoy, ordenado por lo que más peso tiene en mi día.",
 		functional: "Análisis funcional",
 		frontend: "Frontend",
@@ -287,7 +286,7 @@ export default {
 
 	contact: {
 		eyebrow: "Contacto",
-		title: "Trabajemos juntos",
+		title: "Trabajemos Juntos",
 		text: "Tomo proyectos como freelance y también me sumo a equipos, sea como desarrollador o como analista funcional. Si tenés algo en mente, escribime por donde te quede más cómodo.",
 		email: "Email",
 		linkedin: "LinkedIn",

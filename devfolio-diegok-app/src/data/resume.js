@@ -1,58 +1,60 @@
 export const experience = [
 	{
 		id: "hcd",
-		period: "2026 — Presente",
-		periodEn: "2026 — Present",
+		period: "2026 - Presente",
+		periodEn: "2026 - Present",
 		current: true,
 		icon: "users",
 	},
 	{
 		id: "diegokdev",
-		period: "2024 — Presente",
-		periodEn: "2024 — Present",
+		period: "2024 - Presente",
+		periodEn: "2024 - Present",
 		current: true,
 		icon: "terminal",
 	},
 	{
 		id: "habi",
-		period: "2024 — Presente",
-		periodEn: "2024 — Present",
+		period: "2024 - Presente",
+		periodEn: "2024 - Present",
 		current: true,
 		icon: "cart",
 	},
 	{
 		id: "seidor",
-		period: "2022 — 2023",
-		periodEn: "2022 — 2023",
+		period: "2022 - 2023",
+		periodEn: "2022 - 2023",
 		current: false,
 		icon: "database",
 	},
 	{
 		id: "vwQuality",
-		period: "2019 — 2021",
-		periodEn: "2019 — 2021",
+		period: "2019 - 2021",
+		periodEn: "2019 - 2021",
 		current: false,
 		icon: "chart",
 	},
 	{
 		id: "vwIntern",
-		period: "2017 — 2019",
-		periodEn: "2017 — 2019",
+		period: "2017 - 2019",
+		periodEn: "2017 - 2019",
 		current: false,
 		icon: "wrench",
 	},
 ];
 
 export const education = [
-	{ id: "ortSistemas", period: "2024 — 2026", periodEn: "2024 — 2026" },
-	{ id: "ortProgramador", period: "2022 — 2024", periodEn: "2022 — 2024" },
-	{ id: "digitalHouse", period: "2021 — 2022", periodEn: "2021 — 2022" },
-	{ id: "utnMec", period: "2014 — 2021", periodEn: "2014 — 2021" },
-	{ id: "ortSecundario", period: "2005 — 2010", periodEn: "2005 — 2010" },
+	{ id: "ortSistemas", period: "2024 - 2026", periodEn: "2024 - 2026" },
+	{ id: "ortProgramador", period: "2022 - 2024", periodEn: "2022 - 2024" },
+	{ id: "digitalHouse", period: "2021 - 2022", periodEn: "2021 - 2022" },
+	{ id: "utnMec", period: "2014 - 2021", periodEn: "2014 - 2021" },
+	{ id: "utnElectronica", period: "2011 - 2013", periodEn: "2011 - 2013" },
+	{ id: "ortSecundario", period: "2005 - 2010", periodEn: "2005 - 2010" },
 ];
 
 export const certifications = [
 	{ id: "tnPartner", icon: "sparkles", highlight: true },
+	{ id: "digitalHouse", icon: "code", highlight: false },
 	{ id: "sql", icon: "database", highlight: false },
 ];
 
@@ -64,14 +66,13 @@ export const skillGroups = [
 			"Relevamiento de requerimientos",
 			"Documentación y modelado de procesos",
 			"Definición de KPIs e indicadores",
-			"Gestión de tickets y soporte a usuarios",
 			"Acompañamiento al cambio",
 		],
 	},
 	{
 		id: "frontend",
 		icon: "code",
-		items: ["JavaScript (ES6+)", "Vue.js", "React.js", "HTML5", "CSS3 / SCSS"],
+		items: ["JavaScript", "Vue.js", "React.js", "HTML5", "CSS3 / SCSS", "Dart / Flutter"],
 	},
 	{
 		id: "backend",
@@ -82,7 +83,7 @@ export const skillGroups = [
 		id: "ecommerce",
 		icon: "cart",
 		items: [
-			"TiendaNube — API + temas Nexo",
+			"TiendaNube - Diseño y desarrollo de app a medida",
 			"PrestaShop",
 			"Integraciones ERP (Tango)",
 			"Web scraping",
@@ -91,7 +92,7 @@ export const skillGroups = [
 	{
 		id: "data",
 		icon: "database",
-		items: ["MySQL", "MS SQL Server", "SAP HANA / BW", "Looker Studio (ex Data Studio)"],
+		items: ["MySQL", "MS SQL Server", "SAP HANA / BW", "DataStudio (ex LookerStudio)"],
 	},
 	{
 		id: "infra",
@@ -108,11 +109,6 @@ export const skillGroups = [
 		icon: "wrench",
 		items: ["Scrum", "Kanban", "Bizagi", "5S", "TPM"],
 	},
-	{
-		id: "languages",
-		icon: "globe",
-		items: ["Español (nativo)", "Inglés (avanzado)"],
-	},
 ];
 
 export const services = [
@@ -123,9 +119,9 @@ export const services = [
 ];
 
 export const social = {
-	email: "kleiman.diego@gmail.com",
+	email: "diegokdeveloper@gmail.com",
 	github: "https://github.com/Diegok92",
 	linkedin: "https://www.linkedin.com/in/diego-kleiman92/",
 	whatsapp: "https://wa.me/5491136920026",
-	location: "Buenos Aires, Argentina",
+	location: "CABA, Argentina",
 };

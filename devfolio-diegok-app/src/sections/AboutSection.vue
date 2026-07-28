@@ -9,7 +9,6 @@ const { t } = useI18n();
 const facts = [
 	{ icon: "mapPin", labelKey: "locationLabel", value: social.location },
 	{ icon: "sparkles", labelKey: "focusLabel", valueKey: "focusValue" },
-	{ icon: "graduation", labelKey: "studyLabel", valueKey: "studyValue" },
 ];
 </script>
 
@@ -35,6 +34,18 @@ const facts = [
 							<span class="facts__label">{{ t(`about.${fact.labelKey}`) }}</span>
 							<span class="facts__value">
 								{{ fact.value ?? t(`about.${fact.valueKey}`) }}
+							</span>
+						</span>
+					</li>
+
+					<li class="facts__item">
+						<span class="facts__icon"><AppIcon name="graduation" :size="18" /></span>
+						<span class="facts__body">
+							<span class="facts__label">{{ t("about.studyLabel") }}</span>
+							<span class="facts__value facts__study">
+								<strong>{{ t("about.studyInstitution") }}</strong>
+								<span class="facts__study-item">{{ t("about.study1") }}</span>
+								<span class="facts__study-item">{{ t("about.study2") }}</span>
 							</span>
 						</span>
 					</li>
@@ -133,6 +144,22 @@ const facts = [
 	font-size: var(--fs-sm);
 	font-weight: 500;
 	line-height: 1.45;
+}
+
+.facts__study {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.facts__study strong {
+	font-weight: 700;
+}
+
+.facts__study-item {
+	padding-left: var(--sp-4);
+	font-weight: 400;
+	color: var(--text-muted);
 }
 
 .certs {

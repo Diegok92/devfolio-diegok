@@ -40,15 +40,11 @@ const monogram = computed(() =>
 				<span class="card__placeholder-note">{{ t("projects.noPreview") }}</span>
 			</div>
 
-			<span v-if="project.featured" class="card__badge">
-				{{ t("projects.featured") }}
-			</span>
 		</div>
 
 		<div class="card__body">
-			<div class="card__meta">
-				<span v-if="hasClient" class="card__client">{{ t(`${base}.client`) }}</span>
-				<span class="card__year mono">{{ project.year }}</span>
+			<div v-if="hasClient" class="card__meta">
+				<span class="card__client">{{ t(`${base}.client`) }}</span>
 			</div>
 
 			<h3 class="card__title">{{ t(`${base}.title`) }}</h3>

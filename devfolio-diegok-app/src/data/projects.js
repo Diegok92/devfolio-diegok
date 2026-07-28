@@ -1,10 +1,8 @@
 import matde from "../assets/preview-matde.jpg";
-import bolsaEmpleo from "../assets/preview-bolsa-empleo.jpg";
 
 export const projects = [
 	{
 		id: "tpenergy",
-		year: "2026",
 		featured: true,
 		image: null,
 		repo: null,
@@ -22,7 +20,6 @@ export const projects = [
 	},
 	{
 		id: "vorterix",
-		year: "2026",
 		featured: false,
 		image: null,
 		repo: null,
@@ -33,7 +30,6 @@ export const projects = [
 	},
 	{
 		id: "dphidraulica",
-		year: "2025",
 		featured: false,
 		image: null,
 		repo: null,
@@ -43,7 +39,6 @@ export const projects = [
 	},
 	{
 		id: "chatbot",
-		year: "2026",
 		featured: true,
 		image: null,
 		repo: null,
@@ -61,7 +56,6 @@ export const projects = [
 	},
 	{
 		id: "tncrud",
-		year: "2026",
 		featured: true,
 		image: null,
 		repo: null,
@@ -70,33 +64,12 @@ export const projects = [
 		stack: ["Node.js", "Cero dependencias", "REST API", "JavaScript", "CSV"],
 	},
 	{
-		id: "scraper",
-		year: "2026",
-		featured: false,
-		image: null,
-		repo: null,
-		demo: null,
-		accent: "brand",
-		stack: ["Node.js", "Cero dependencias", "HTML parsing", "CSV", "JSON"],
-	},
-	{
 		id: "matde",
-		year: "2024",
 		featured: false,
 		image: matde,
 		repo: null,
 		demo: "https://matde.com.ar",
 		accent: "brand",
 		stack: ["Vue.js", "HTML", "CSS", "Dominio propio"],
-	},
-	{
-		id: "bolsaEmpleo",
-		year: "2023",
-		featured: false,
-		image: bolsaEmpleo,
-		repo: null,
-		demo: "https://diegok92.github.io/ORT-PNT2-TP-BolsaEmpleo/#/",
-		accent: "accent",
-		stack: ["Vue.js", "Vue Router", "MockAPI", "CRUD"],
 	},
 ];
