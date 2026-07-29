@@ -46,7 +46,7 @@ export default {
 		studyLabel: "Studies",
 		studyInstitution: "ORT",
 		study1: "Programmer Analyst - Completed",
-		study2: "Systems Analyst - finishing Dec 2026",
+		study2: "Systems Analyst - Finishing Dec 2026",
 	},
 
 	projects: {
@@ -99,28 +99,17 @@ export default {
 		certificationsTitle: "Certifications",
 		current: "Current",
 
-		hcd: {
-			role: "Partner · Functional Analyst",
-			company: "HCD",
-			location: "Buenos Aires, Argentina",
-			description:
-				"A venture of my own with two partners, bringing process automation, AI chatbots and management dashboards to small and medium businesses. We're at the proposal and first-pilot stage.",
-			achievements: [
-				"Defined the service offering and the pitch material.",
-				"Ran discovery with the first interested businesses and turned it into concrete solutions.",
-				"Built the first pilot: an AI-powered WhatsApp assistant, infrastructure included.",
-			],
-		},
 		diegokdev: {
 			role: "Freelance Web Developer",
-			company: "DIEGOKDEVELOPER",
-			location: "Buenos Aires, Argentina · Remote",
+			company: "DIEGOKDEVELOPER · HCD",
+			location: "Buenos Aires, Argentina",
 			description:
-				"I build and run online stores for small and medium businesses, from initial discovery through to launch and maintenance.",
+				"I build and run online stores, and develop custom solutions: automations, control panels, chatbots and other tailored builds. Always from initial discovery through to production. In parallel, with two partners we're building HCD, a venture bringing automation and management dashboards to SMBs.",
 			achievements: [
-				"Certified TiendaNube Partner.",
-				"Full catalogue migrations between platforms, using tools I built myself.",
-				"Ongoing administration of live stores: DP Hidráulica, Exxit, Motoverde, TP Energy and Vorterix.",
+				"Full catalogue migrations between platforms.",
+				"In-house tools and apps built for TiendaNube.",
+				"Ongoing administration of live stores.",
+				"Development of chatbots, dashboards and analytics.",
 			],
 		},
 		habi: {

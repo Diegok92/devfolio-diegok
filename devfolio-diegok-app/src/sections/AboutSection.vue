@@ -216,6 +216,7 @@ const facts = [
 	display: block;
 	font-size: var(--fs-sm);
 	font-weight: 600;
+	color: var(--text);
 }
 
 .certs__item em {

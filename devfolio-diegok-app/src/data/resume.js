@@ -1,12 +1,5 @@
 export const experience = [
 	{
-		id: "hcd",
-		period: "2026 - Presente",
-		periodEn: "2026 - Present",
-		current: true,
-		icon: "users",
-	},
-	{
 		id: "diegokdev",
 		period: "2024 - Presente",
 		periodEn: "2024 - Present",

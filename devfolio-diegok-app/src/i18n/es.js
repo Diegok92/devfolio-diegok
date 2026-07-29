@@ -46,7 +46,7 @@ export default {
 		studyLabel: "Estudios",
 		studyInstitution: "ORT",
 		study1: "Analista Programador - Finalizado",
-		study2: "Analista de Sistemas - finalización dic 2026",
+		study2: "Analista de Sistemas - Finalización dic 2026",
 	},
 
 	projects: {
@@ -100,28 +100,17 @@ export default {
 		certificationsTitle: "Certificaciones",
 		current: "Actual",
 
-		hcd: {
-			role: "Socio · Analista Funcional",
-			company: "HCD",
-			location: "CABA, Argentina",
-			description:
-				"Proyecto propio junto a dos socios para llevar automatización de procesos, chatbots con IA y tableros de gestión a PyMEs. Estamos en etapa de propuesta y primeros pilotos.",
-			achievements: [
-				"Definición de la propuesta de servicios y del material de presentación.",
-				"Relevamiento de necesidades con los primeros interesados y traducción a soluciones concretas.",
-				"Desarrollo del primer piloto: un asistente de WhatsApp con IA, incluida su infraestructura.",
-			],
-		},
 		diegokdev: {
 			role: "Desarrollador Web Freelance",
-			company: "DIEGOKDEVELOPER",
-			location: "CABA, Argentina · Remoto",
+			company: "DIEGOKDEVELOPER · HCD",
+			location: "CABA, Argentina",
 			description:
-				"Desarrollo y administro tiendas online para PyMEs, del relevamiento inicial a la puesta en producción y el mantenimiento.",
+				"Construyo y administro tiendas online, y desarrollo soluciones a medida: automatizaciones, paneles de control, chatbots y otros desarrollos personalizados. Siempre del relevamiento inicial a la producción. En paralelo, junto a dos socios armamos HCD, un proyecto para llevar automatización y tableros de gestión a las PyMEs.",
 			achievements: [
-				"Partner certificado de TiendaNube.",
-				"Migración de catálogos completos entre plataformas, con herramientas propias.",
-				"Administración continua de tiendas en producción: DP Hidráulica, Exxit, Motoverde, TP Energy y Vorterix.",
+				"Migración de catálogos completos entre plataformas.",
+				"Creación de herramientas y apps propias para TiendaNube.",
+				"Administración continua de tiendas ya en producción.",
+				"Desarrollo de chatbots, paneles de gestión y estadísticas.",
 			],
 		},
 		habi: {
