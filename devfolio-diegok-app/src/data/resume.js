@@ -59,56 +59,14 @@ export const certifications = [
 ];
 
 export const skillGroups = [
-	{
-		id: "functional",
-		icon: "users",
-		items: [
-			"Relevamiento de requerimientos",
-			"Documentación y modelado de procesos",
-			"Definición de KPIs e indicadores",
-			"Acompañamiento al cambio",
-		],
-	},
-	{
-		id: "frontend",
-		icon: "code",
-		items: ["JavaScript", "Vue.js", "React.js", "HTML5", "CSS3 / SCSS", "Dart / Flutter"],
-	},
-	{
-		id: "backend",
-		icon: "terminal",
-		items: ["Node.js", "Express.js", "APIs REST", "PHP", "Java", "C#"],
-	},
-	{
-		id: "ecommerce",
-		icon: "cart",
-		items: [
-			"TiendaNube - Diseño y desarrollo de app a medida",
-			"PrestaShop",
-			"Integraciones ERP (Tango)",
-			"Web scraping",
-		],
-	},
-	{
-		id: "data",
-		icon: "database",
-		items: ["MySQL", "MS SQL Server", "SAP HANA / BW", "DataStudio (ex LookerStudio)"],
-	},
-	{
-		id: "infra",
-		icon: "layers",
-		items: ["Git / GitHub", "Postman", "Cloudflare Workers", "Vite", "FTP"],
-	},
-	{
-		id: "marketing",
-		icon: "chart",
-		items: ["Google Ads", "Google Analytics 4", "Tag Manager", "SemRush", "Brevo"],
-	},
-	{
-		id: "methods",
-		icon: "wrench",
-		items: ["Scrum", "Kanban", "Bizagi", "5S", "TPM"],
-	},
+	{ id: "functional", icon: "users" },
+	{ id: "methods", icon: "wrench" },
+	{ id: "ecommerce", icon: "cart" },
+	{ id: "marketing", icon: "chart" },
+	{ id: "frontend", icon: "code" },
+	{ id: "backend", icon: "terminal" },
+	{ id: "data", icon: "database" },
+	{ id: "infra", icon: "layers" },
 ];
 
 export const services = [

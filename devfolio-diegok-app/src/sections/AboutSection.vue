@@ -15,15 +15,15 @@ const facts = [
 <template>
 	<section id="about" class="section section--alt">
 		<div class="container about">
-			<div class="about__main">
-				<SectionHeading
-					:eyebrow="t('about.eyebrow')"
-					:title="t('about.title')"
-				/>
+			<SectionHeading
+				class="about__head"
+				wide
+				:eyebrow="t('about.eyebrow')"
+				:title="t('about.title')"
+			/>
 
-				<div class="about__prose" v-reveal="80">
-					<p v-for="n in 4" :key="n">{{ t(`about.p${n}`) }}</p>
-				</div>
+			<div class="about__prose" v-reveal="80">
+				<p v-for="n in 4" :key="n">{{ t(`about.p${n}`) }}</p>
 			</div>
 
 			<aside class="about__aside">
@@ -77,8 +77,18 @@ const facts = [
 .about {
 	display: grid;
 	grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
-	gap: var(--sp-8);
+	column-gap: var(--sp-8);
+	row-gap: 0;
 	align-items: start;
+}
+
+.about > .about__head {
+	grid-column: 1 / -1;
+	margin-bottom: var(--sp-6);
+}
+
+.about__aside {
+	align-self: end;
 }
 
 .about__prose p + p {
@@ -191,7 +201,7 @@ const facts = [
 
 .certs__item svg {
 	margin-top: 3px;
-	color: var(--text-faint);
+	color: var(--brand);
 }
 
 .certs__item--highlight {

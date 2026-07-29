@@ -169,7 +169,6 @@ function achievementsOf(id) {
 
 .timeline__marker.is-current {
 	border-color: var(--brand);
-	/* Opaco (no translúcido) para que la línea del timeline no se vea a través */
 	background: color-mix(in srgb, var(--brand) 16%, var(--bg));
 	color: var(--brand);
 }

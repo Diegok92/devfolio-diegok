@@ -4,7 +4,12 @@ import SectionHeading from "../components/SectionHeading.vue";
 import AppIcon from "../components/AppIcon.vue";
 import { skillGroups } from "../data/resume.js";
 
-const { t } = useI18n();
+const { t, tm, rt } = useI18n();
+
+function itemsOf(id) {
+	const list = tm(`skills.items.${id}`);
+	return Array.isArray(list) ? list.map((item) => rt(item)) : [];
+}
 </script>
 
 <template>
@@ -28,7 +33,7 @@ const { t } = useI18n();
 						<h3>{{ t(`skills.${group.id}`) }}</h3>
 					</div>
 					<ul class="skills__items">
-						<li v-for="item in group.items" :key="item">{{ item }}</li>
+						<li v-for="item in itemsOf(group.id)" :key="item">{{ item }}</li>
 					</ul>
 				</li>
 			</ul>

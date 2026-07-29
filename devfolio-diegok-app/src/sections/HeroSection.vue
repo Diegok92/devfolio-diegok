@@ -9,7 +9,7 @@ const { t } = useI18n();
 const stats = [
 	{ value: "5", key: "stat1" },
 	{ value: "12", key: "stat3" },
-	{ value: "+8", key: "stat2" },
+	{ value: "+9", key: "stat2" },
 	{ value: "3", key: "stat4" },
 ];
 
