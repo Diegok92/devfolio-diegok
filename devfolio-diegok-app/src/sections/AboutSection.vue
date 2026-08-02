@@ -2,7 +2,7 @@
 import { useI18n } from "vue-i18n";
 import SectionHeading from "../components/SectionHeading.vue";
 import AppIcon from "../components/AppIcon.vue";
-import { social, certifications } from "../data/resume.js";
+import { social } from "../data/resume.js";
 
 const { t } = useI18n();
 
@@ -43,31 +43,14 @@ const facts = [
 						<span class="facts__body">
 							<span class="facts__label">{{ t("about.studyLabel") }}</span>
 							<span class="facts__value facts__study">
-								<strong>{{ t("about.studyInstitution") }}</strong>
 								<span class="facts__study-item">{{ t("about.study1") }}</span>
 								<span class="facts__study-item">{{ t("about.study2") }}</span>
+								<span class="facts__study-item">{{ t("about.study3") }}</span>
+								<span class="facts__study-item">{{ t("about.study4") }}</span>
 							</span>
 						</span>
 					</li>
 				</ul>
-
-				<div class="certs" v-reveal="180">
-					<h3 class="certs__title">{{ t("resume.certificationsTitle") }}</h3>
-					<ul>
-						<li
-							v-for="cert in certifications"
-							:key="cert.id"
-							class="certs__item"
-							:class="{ 'certs__item--highlight': cert.highlight }"
-						>
-							<AppIcon :name="cert.highlight ? 'check' : cert.icon" :size="16" />
-							<span>
-								<strong>{{ t(`resume.${cert.id}.name`) }}</strong>
-								<em>{{ t(`resume.${cert.id}.issuer`) }}</em>
-							</span>
-						</li>
-					</ul>
-				</div>
 			</aside>
 		</div>
 	</section>
@@ -88,7 +71,7 @@ const facts = [
 }
 
 .about__aside {
-	align-self: end;
+	align-self: start;
 }
 
 .about__prose p + p {
@@ -159,70 +142,12 @@ const facts = [
 .facts__study {
 	display: flex;
 	flex-direction: column;
-	gap: 2px;
-}
-
-.facts__study strong {
-	font-weight: 700;
+	gap: 5px;
 }
 
 .facts__study-item {
-	padding-left: var(--sp-4);
 	font-weight: 400;
 	color: var(--text-muted);
-}
-
-.certs {
-	margin-top: var(--sp-5);
-	padding: var(--sp-5);
-	border-radius: var(--radius);
-	background: var(--surface);
-	border: 1px solid var(--border);
-}
-
-.certs__title {
-	font-size: var(--fs-sm);
-	text-transform: uppercase;
-	letter-spacing: 0.08em;
-	color: var(--text-faint);
-	margin-bottom: var(--sp-4);
-}
-
-.certs__item {
-	display: flex;
-	gap: var(--sp-3);
-	align-items: flex-start;
-	color: var(--text-muted);
-}
-
-.certs__item + .certs__item {
-	margin-top: var(--sp-4);
-}
-
-.certs__item svg {
-	margin-top: 3px;
-	color: var(--brand);
-}
-
-.certs__item--highlight {
-	color: var(--text);
-}
-
-.certs__item--highlight svg {
-	color: var(--brand);
-}
-
-.certs__item strong {
-	display: block;
-	font-size: var(--fs-sm);
-	font-weight: 600;
-	color: var(--text);
-}
-
-.certs__item em {
-	font-size: var(--fs-xs);
-	font-style: normal;
-	color: var(--text-faint);
 }
 
 @media (max-width: 900px) {

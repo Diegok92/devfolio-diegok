@@ -27,11 +27,6 @@ const links = [
 
 		<div class="container hero__inner">
 			<div class="hero__content">
-				<p class="hero__badge">
-					<span class="hero__dot" aria-hidden="true"></span>
-					{{ t("hero.available") }}
-				</p>
-
 				<p class="hero__greeting">{{ t("hero.greeting") }}</p>
 				<h1 class="hero__name">{{ t("hero.name") }}</h1>
 				<p class="hero__role">
@@ -181,8 +176,10 @@ const links = [
 
 .hero__name {
 	font-size: var(--fs-3xl);
+	line-height: 1.15;
 	letter-spacing: -0.035em;
 	margin-bottom: var(--sp-3);
+	padding-bottom: 0.08em;
 	background: linear-gradient(
 		135deg,
 		var(--text) 30%,

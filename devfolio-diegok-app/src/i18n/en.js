@@ -21,10 +21,10 @@ export default {
 		available: "Available for new projects",
 		greeting: "Hi, I'm",
 		name: "Diego Kleiman",
-		role: "Full Stack Web Developer",
+		role: "Full Stack Developer",
 		role2: "Functional Analyst",
 		tagline:
-			"I understand the process, document it, and then build it. I come from engineering and I work where the business meets the technology.",
+			"I build online stores, automations and custom software for SMBs. I come from engineering: first I understand the business and its needs, and only after setting the action plan together with the client/user do I touch code.",
 		ctaProjects: "See my work",
 		ctaContact: "Get in touch",
 		stat1: "stores in production",
@@ -42,18 +42,19 @@ export default {
 		p4: "What interests me are the projects where you have to understand the business before writing a line of code. I work with clients independently and I also join teams, as a developer or as a functional analyst.",
 		locationLabel: "Location",
 		focusLabel: "Profile",
-		focusValue: "Web development · Functional analysis · Automation",
-		studyLabel: "Studies",
-		studyInstitution: "ORT",
-		study1: "Programmer Analyst - Completed",
-		study2: "Systems Analyst - Finishing Dec 2026",
+		focusValue: "Web Development · Functional Analysis · Automation",
+		studyLabel: "Computing Studies",
+		study1: "Systems Analyst",
+		study2: "Programmer Analyst",
+		study3: "Full Stack Web Developer",
+		study4: "Certified TiendaNube Partner",
 	},
 
 	projects: {
 		eyebrow: "Portfolio",
 		title: "Projects",
 		subtitle:
-			"Work for real clients plus tools of my own. Happy to go into the technical detail of any of them — just ask.",
+			"A selection of work for real clients and tools I've developed.",
 		featured: "Featured",
 		viewRepo: "View code",
 		viewDemo: "Live site",
@@ -63,31 +64,32 @@ export default {
 		tpenergy: {
 			title: "TPEnergy",
 			description:
-				"Full migration of the store to TiendaNube, with the entire catalogue imported through the API and a design tailored to the client.",
+				"Development and management of their TiendaNube store, with a full catalogue migration from PrestaShop and a design tailored to the client.",
 		},
 		vorterix: {
 			title: "Vorterix Shop",
 			description:
-				"Apparel and merchandising store handling variants by size and colour.",
+				"Building their TiendaNube store, handling variants by size and colour. Currently in development.",
 		},
 		dphidraulica: {
 			title: "DP Hidráulica",
-			description: "Built the online store and run its day-to-day operation.",
+			description:
+				"End-to-end development and management of their TiendaNube store: catalogue migration and cleanup from Mercado Shops, online advertising management and an advanced analytics dashboard.",
 		},
 		chatbot: {
-			title: "AI-powered WhatsApp assistant",
+			title: "Chatbot Plus",
 			description:
-				"A bot that handles a shop's WhatsApp enquiries using AI, answering with the business's real data. The point: staff serve and take payment instead of replying to messages.",
+				"A bot that handles a shop's WhatsApp enquiries with AI, answering with the business's real data. It adds a panel where the bot tells staff which orders to prepare based on each customer conversation. The point: the team sells and ships instead of replying to messages.",
 		},
 		tncrud: {
-			title: "Stock admin panel for multiple TiendaNube stores",
+			title: "TN App & Dashboard",
 			description:
-				"An app to import, update and audit catalogues on any TiendaNube store. I built it because doing it by hand doesn't scale.",
+				"I developed my own app as a TiendaNube Partner to connect to the stores and manage them from a single dashboard: bulk upload, catalogue updates and audits, stock control and reports. I built it because doing it by hand doesn't scale.",
 		},
 		matde: {
 			title: "Matde - Insurance brokers",
 			description:
-				"Corporate website for an international insurance brokerage firm, live on its own domain.",
+				"Corporate website built from scratch, with its own analytics dashboard, live on its own domain.",
 		},
 	},
 
@@ -96,15 +98,14 @@ export default {
 		title: "Experience & Education",
 		experienceTitle: "Professional experience",
 		educationTitle: "Education",
-		certificationsTitle: "Certifications",
 		current: "Current",
 
 		diegokdev: {
-			role: "Freelance Web Developer",
-			company: "DIEGOKDEVELOPER · HCD",
-			location: "Buenos Aires, Argentina",
+			role: "Freelance Developer & Partner",
+			company: "HCD",
+			location: "Remote, Argentina",
 			description:
-				"I build and run online stores, and develop custom solutions: automations, control panels, chatbots and other tailored builds. Always from initial discovery through to production. In parallel, with two partners we're building HCD, a venture bringing automation and management dashboards to SMBs.",
+				"I build and run online stores, and I also develop custom solutions: Automations, Control panels, Chatbots and other tailored builds. In parallel, with two partners we're building HCD, a venture bringing automation and management dashboards to SMBs to improve their performance and online presence.",
 			achievements: [
 				"Full catalogue migrations between platforms.",
 				"In-house tools and apps built for TiendaNube.",
@@ -129,10 +130,10 @@ export default {
 			company: "Seidor Analytics",
 			location: "Buenos Aires, Argentina",
 			description:
-				"Handled and resolved corporate user tickets across SAP HANA, BW and MS SQL Server.",
+				"Functional and technical support for corporate users across companies on SAP HANA, BW and MS SQL Server environments, resolving their data and reporting requirements.",
 			achievements: [
-				"Worked directly with business users to understand and scope each requirement.",
-				"SQL certification.",
+				"Worked directly with business users to understand and scope each requirement before solving it.",
+				"SQL queries and data analysis to meet reporting needs.",
 			],
 		},
 		vwQuality: {
@@ -140,20 +141,12 @@ export default {
 			company: "Volkswagen Argentina",
 			location: "Pacheco, Buenos Aires",
 			description:
-				"Managed production-line quality requirements for the Taos launch and tracked supplier failures across the Assembly, Paint and Body plants.",
+				"From Maintenance Engineering Intern in the Body shop (Suran and Amarok) to Bought-in Parts Quality Engineering Analyst (Amarok and Taos). Managed production-line quality requirements together with the Logistics area for the Taos model launch and, separately, tracked supplier failures to the Assembly, Paint, Body and Lab (Amarok) plants to then file the corresponding claims.",
 			achievements: [
-				"Ran regular meetings with cross-functional teams: Logistics, Production and Suppliers.",
-				"Defined new quality indicators and automated the tracking reports for several departments.",
-				"Criticality and failure-tracking reports that directly reduced rejections and improved stock levels.",
-			],
-		},
-		vwIntern: {
-			role: "Engineering Intern - Maintenance",
-			company: "Volkswagen Argentina",
-			location: "Pacheco, Buenos Aires",
-			description:
-				"Blueprint design and interpretation, and rollout of 5S, TPM and Kanban across office and plant.",
-			achievements: [
+				"Coordination with cross-functional teams: Logistics, Production and Suppliers.",
+				"Defined quality indicators and automated reports.",
+				"Failure and cost reports with a direct impact on stock optimization.",
+				"As an Intern: blueprint design and interpretation, and 5S, TPM and Kanban follow-up across office and plant.",
 				"Certified in Catia V5 and in KUKA VKRC4 industrial robot programming.",
 			],
 		},
@@ -172,8 +165,6 @@ export default {
 			institution: "Digital House",
 			degree: "Full Stack Web Developer",
 			note: "Certification obtained",
-			name: "Full Stack Web Developer",
-			issuer: "Digital House",
 		},
 		utnMec: {
 			institution: "UTN FRBA",
@@ -189,16 +180,6 @@ export default {
 			institution: "ORT",
 			degree: "Technical high school - Electronics",
 			note: "",
-		},
-
-		tnPartner: {
-			name: "Certified TiendaNube Partner",
-			issuer: "TiendaNube / Nuvemshop",
-		},
-		sql: { name: "SQL certification", issuer: "Seidor Analytics" },
-		catia: {
-			name: "Catia V5 · KUKA VKRC4 industrial robots",
-			issuer: "Volkswagen Argentina",
 		},
 	},
 
@@ -287,9 +268,8 @@ export default {
 
 	services: {
 		eyebrow: "For businesses",
-		title: "Want to tidy up your operation or start selling online?",
-		subtitle:
-			"This is the work I do for clients. If any of it is useful to you, get in touch — no strings attached.",
+		title: "A summary of my freelance work",
+		subtitle: "",
 		cta: "Request a quote",
 		stores: {
 			title: "Online stores",
@@ -316,7 +296,7 @@ export default {
 	contact: {
 		eyebrow: "Contact",
 		title: "Let's Work Together",
-		text: "I take on freelance projects and I also join teams, whether as a developer or as a functional analyst. If you have something in mind, reach out however suits you best.",
+		text: "",
 		email: "Email",
 		linkedin: "LinkedIn",
 		github: "GitHub",

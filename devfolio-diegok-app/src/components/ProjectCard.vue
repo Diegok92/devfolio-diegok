@@ -26,7 +26,11 @@ const monogram = computed(() =>
 
 <template>
 	<article class="card" v-reveal>
-		<div class="card__media" :class="`card__media--${project.accent}`">
+		<div
+			v-if="!project.hidePreview"
+			class="card__media"
+			:class="`card__media--${project.accent}`"
+		>
 			<img
 				v-if="project.image"
 				:src="project.image"
@@ -49,10 +53,6 @@ const monogram = computed(() =>
 
 			<h3 class="card__title">{{ t(`${base}.title`) }}</h3>
 			<p class="card__description">{{ t(`${base}.description`) }}</p>
-
-			<ul class="card__stack">
-				<li v-for="tech in project.stack" :key="tech" class="tag">{{ tech }}</li>
-			</ul>
 
 			<div class="card__actions">
 				<a
@@ -211,20 +211,13 @@ const monogram = computed(() =>
 	color: var(--text-muted);
 }
 
-.card__stack {
-	display: flex;
-	flex-wrap: wrap;
-	gap: var(--sp-2);
-	margin-top: auto;
-	padding-top: var(--sp-2);
-}
-
 .card__actions {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	gap: var(--sp-3);
-	padding-top: var(--sp-2);
+	margin-top: auto;
+	padding-top: var(--sp-4);
 }
 
 .card__pending {

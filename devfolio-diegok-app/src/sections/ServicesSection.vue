@@ -15,6 +15,7 @@ const { t } = useI18n();
 				:title="t('services.title')"
 				:subtitle="t('services.subtitle')"
 				align="center"
+				wide
 			/>
 
 			<ul class="services">

@@ -1,8 +1,8 @@
 export const experience = [
 	{
 		id: "diegokdev",
-		period: "2024 - Presente",
-		periodEn: "2024 - Present",
+		period: "2026 - Presente",
+		periodEn: "2026 - Present",
 		current: true,
 		icon: "terminal",
 	},
@@ -22,17 +22,10 @@ export const experience = [
 	},
 	{
 		id: "vwQuality",
-		period: "2019 - 2021",
-		periodEn: "2019 - 2021",
+		period: "2017 - 2021",
+		periodEn: "2017 - 2021",
 		current: false,
 		icon: "chart",
-	},
-	{
-		id: "vwIntern",
-		period: "2017 - 2019",
-		periodEn: "2017 - 2019",
-		current: false,
-		icon: "wrench",
 	},
 ];
 
@@ -43,12 +36,6 @@ export const education = [
 	{ id: "utnMec", period: "2014 - 2021", periodEn: "2014 - 2021" },
 	{ id: "utnElectronica", period: "2011 - 2013", periodEn: "2011 - 2013" },
 	{ id: "ortSecundario", period: "2005 - 2010", periodEn: "2005 - 2010" },
-];
-
-export const certifications = [
-	{ id: "tnPartner", icon: "sparkles", highlight: true },
-	{ id: "digitalHouse", icon: "code", highlight: false },
-	{ id: "sql", icon: "database", highlight: false },
 ];
 
 export const skillGroups = [

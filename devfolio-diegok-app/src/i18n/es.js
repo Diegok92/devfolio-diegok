@@ -21,10 +21,10 @@ export default {
 		available: "Disponible para nuevos proyectos",
 		greeting: "Hola, soy",
 		name: "Diego Kleiman",
-		role: "Desarrollador Web Full Stack",
+		role: "Desarrollador Full Stack",
 		role2: "Analista Funcional",
 		tagline:
-			"Entiendo el proceso, lo documento y después lo construyo. Vengo de la ingeniería y trabajo en el punto donde el negocio se encuentra con la tecnología.",
+			"Creo tiendas online, automatizaciones y soluciones a medida para PyMEs. Vengo de la ingeniería: Primero entiendo el negocio, su necesidad y recién luego de establecer el plan de acción en conjunto con el cliente/usuario toco código.",
 		ctaProjects: "Ver mi trabajo",
 		ctaContact: "Contactame",
 		stat1: "tiendas en producción",
@@ -42,18 +42,19 @@ export default {
 		p4: "Me interesan los proyectos donde haya que entender el negocio antes de escribir una línea de código. Trabajo con clientes de forma independiente y también me sumo a equipos, como desarrollador o como analista funcional.",
 		locationLabel: "Ubicación",
 		focusLabel: "Perfil",
-		focusValue: "Desarrollo web · Análisis funcional · Automatización",
-		studyLabel: "Estudios",
-		studyInstitution: "ORT",
-		study1: "Analista Programador - Finalizado",
-		study2: "Analista de Sistemas - Finalización dic 2026",
+		focusValue: "Desarrollo Web · Análisis Funcional · Automatización",
+		studyLabel: "Estudios en Informática",
+		study1: "Analista de Sistemas",
+		study2: "Analista Programador",
+		study3: "Desarrollador Web Full Stack",
+		study4: "Partner Certificado TiendaNube",
 	},
 
 	projects: {
 		eyebrow: "Portfolio",
 		title: "Proyectos",
 		subtitle:
-			"Trabajo para clientes reales y herramientas propias. Si querés el detalle técnico de cualquiera, preguntame.",
+			"Una selección de trabajos para clientes reales y herramientas desarrolladas.",
 		featured: "Destacado",
 		viewRepo: "Ver código",
 		viewDemo: "Ver online",
@@ -63,32 +64,32 @@ export default {
 		tpenergy: {
 			title: "TPEnergy",
 			description:
-				"Migración completa de la tienda a TiendaNube, con el catálogo entero cargado por API y el diseño personalizado a medida del cliente.",
+				"Desarrollo y administración de su TiendaNube, con la migración completa del catálogo desde PrestaShop y un diseño a medida del cliente.",
 		},
 		vorterix: {
 			title: "Vorterix Shop",
 			description:
-				"Tienda de indumentaria y merchandising con manejo de variantes por talle y color.",
+				"Desarrollo de su tienda en TiendaNube, con manejo de variantes por talle y color. Actualmente en desarrollo.",
 		},
 		dphidraulica: {
 			title: "DP Hidráulica",
 			description:
-				"Desarrollo de la tienda online y administración continua de la operación.",
+				"Desarrollo y administración integral de su TiendaNube: migración y saneamiento del catálogo desde Mercado Shops, gestión de la publicidad online y un panel de estadísticas avanzadas.",
 		},
 		chatbot: {
-			title: "Asistente de WhatsApp con IA",
+			title: "Chatbot Plus",
 			description:
-				"Bot que atiende las consultas de un local por WhatsApp usando IA, respondiendo con los datos reales del negocio. La idea: que el empleado se dedique a servir y cobrar, no a contestar mensajes.",
+				"Bot que atiende las consultas de un local por WhatsApp con IA, respondiendo con los datos reales del negocio. Suma un panel donde el bot le informa al empleado los pedidos a preparar según lo que conversó con cada cliente. La idea: que el equipo venda y despache, no que conteste mensajes.",
 		},
 		tncrud: {
-			title: "Panel de admin de stock de múltiples TiendasNube",
+			title: "App y Dashboard TN",
 			description:
-				"App para cargar, actualizar y auditar catálogos de cualquier tienda TiendaNube. La construí porque hacerlo a mano no escala.",
+				"Desarrollé mi propia app como Partner de TiendaNube para conectarme a las tiendas y administrarlas desde un solo panel: carga masiva, actualización y auditoría de catálogos, control de stock y reportes. La construí porque hacerlo a mano no escala.",
 		},
 		matde: {
 			title: "Matde - Productores de seguros",
 			description:
-				"Sitio institucional para una empresa internacional de productores de seguros, en producción bajo su propio dominio.",
+				"Sitio institucional desarrollado desde cero, con su propio panel de estadísticas, en producción bajo dominio propio.",
 		},
 	},
 
@@ -97,15 +98,14 @@ export default {
 		title: "Experiencia y Formación",
 		experienceTitle: "Experiencia profesional",
 		educationTitle: "Formación",
-		certificationsTitle: "Certificaciones",
 		current: "Actual",
 
 		diegokdev: {
-			role: "Desarrollador Web Freelance",
-			company: "DIEGOKDEVELOPER · HCD",
-			location: "CABA, Argentina",
+			role: "Desarrollador Freelance y Socio",
+			company: "HCD",
+			location: "Remoto, Argentina",
 			description:
-				"Construyo y administro tiendas online, y desarrollo soluciones a medida: automatizaciones, paneles de control, chatbots y otros desarrollos personalizados. Siempre del relevamiento inicial a la producción. En paralelo, junto a dos socios armamos HCD, un proyecto para llevar automatización y tableros de gestión a las PyMEs.",
+				"Construyo y administro tiendas online, también desarrollo soluciones a medida: Automatizaciones, Paneles de control, Chatbots y demás desarrollos personalizados. En paralelo, junto a dos socios armamos HCD, un proyecto para llevar automatización y tableros de gestión a las PyMEs para mejorar sus rendimientos y presencia online.",
 			achievements: [
 				"Migración de catálogos completos entre plataformas.",
 				"Creación de herramientas y apps propias para TiendaNube.",
@@ -130,10 +130,10 @@ export default {
 			company: "Seidor Analytics",
 			location: "CABA, Argentina",
 			description:
-				"Atención y resolución de tickets de usuarios de empresas sobre SAP HANA, BW y MS SQL Server.",
+				"Soporte funcional y técnico a usuarios corporativos de distintas empresas sobre entornos SAP HANA, BW y MS SQL Server, resolviendo sus requerimientos de datos y reportería.",
 			achievements: [
-				"Interlocución directa con usuarios de negocio para entender y acotar cada requerimiento.",
-				"Certificación en SQL.",
+				"Interlocución directa con los usuarios de negocio para entender y acotar cada requerimiento antes de resolverlo.",
+				"Consultas y análisis de datos en SQL para dar respuesta a las necesidades de reportería.",
 			],
 		},
 		vwQuality: {
@@ -141,20 +141,12 @@ export default {
 			company: "Volkswagen Argentina",
 			location: "Pacheco, Buenos Aires",
 			description:
-				"Gestión de requerimientos de calidad en línea de producción para el lanzamiento del Taos y seguimiento de fallas de proveedores entre las plantas de Montaje, Pintura y Carrocería.",
+				"De pasante de Ingeniería de Mantenimiento del Área Carrocería (Suran y Amarok) a Analista de Ingeniería de Calidad de Piezas Compradas (Amarok y Taos). Gestión de requerimientos de calidad en línea de producción en conjunto con el Área Logística para el lanzamiento del modelo Taos y por otro lado, seguimiento de fallas de proveedores a las plantas de Montaje, Pintura, Carrocería y Laboratorio (Amarok) para luego hacer las reclamaciones pertinentes.",
 			achievements: [
-				"Coordinación de reuniones periódicas con equipos multifuncionales: Logística, Producción y Proveedores.",
-				"Definición de nuevos indicadores de calidad y automatización de los reportes de seguimiento de varios departamentos.",
-				"Informes de criticidad y seguimiento de fallas, con impacto directo en la reducción de rechazos y la optimización del stock.",
-			],
-		},
-		vwIntern: {
-			role: "Pasante de Ingeniería - Mantenimiento",
-			company: "Volkswagen Argentina",
-			location: "Pacheco, Buenos Aires",
-			description:
-				"Diseño e interpretación de planos e implementación de 5S, TPM y Kanban en oficina y planta.",
-			achievements: [
+				"Coordinación con equipos multifuncionales: Logística, Producción y Proveedores.",
+				"Definición de indicadores de calidad y automatización de reportes.",
+				"Informes de fallos y sus costos con impacto directo en la optimización del stock.",
+				"Como Pasante: diseño e interpretación de planos, seguimiento 5S, TPM y Kanban en oficina y planta.",
 				"Certificaciones en Catia V5 y en programación de robots industriales KUKA VKRC4.",
 			],
 		},
@@ -173,8 +165,6 @@ export default {
 			institution: "Digital House",
 			degree: "Desarrollador Web Full Stack",
 			note: "Certificación obtenida",
-			name: "Desarrollador Web Full Stack",
-			issuer: "Digital House",
 		},
 		utnMec: {
 			institution: "UTN FRBA",
@@ -190,16 +180,6 @@ export default {
 			institution: "ORT",
 			degree: "Secundario técnico - Electrónica",
 			note: "",
-		},
-
-		tnPartner: {
-			name: "Partner certificado de TiendaNube",
-			issuer: "TiendaNube / Nuvemshop",
-		},
-		sql: { name: "Certificación en SQL", issuer: "Seidor Analytics" },
-		catia: {
-			name: "Catia V5 · Robots industriales KUKA VKRC4",
-			issuer: "Volkswagen Argentina",
 		},
 	},
 
@@ -288,9 +268,8 @@ export default {
 
 	services: {
 		eyebrow: "Para empresas",
-		title: "¿Tenés un negocio y querés ordenarlo o venderlo online?",
-		subtitle:
-			"Estos son los trabajos que hago para clientes. Si algo te sirve, escribime y lo charlamos sin compromiso.",
+		title: "Resumen de mi trabajo freelance",
+		subtitle: "",
 		cta: "Pedime un presupuesto",
 		stores: {
 			title: "Tiendas online",
@@ -317,7 +296,7 @@ export default {
 	contact: {
 		eyebrow: "Contacto",
 		title: "Trabajemos Juntos",
-		text: "Tomo proyectos como freelance y también me sumo a equipos, sea como desarrollador o como analista funcional. Si tenés algo en mente, escribime por donde te quede más cómodo.",
+		text: "",
 		email: "Email",
 		linkedin: "LinkedIn",
 		github: "GitHub",
