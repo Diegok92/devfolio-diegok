@@ -278,8 +278,8 @@ const links = [
 }
 
 .hero__stats {
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
 	gap: var(--sp-6) var(--sp-8);
 	margin-top: var(--sp-8);
 	padding-top: var(--sp-6);
@@ -319,8 +319,8 @@ const links = [
 	}
 
 	.hero__stats {
-		gap: var(--sp-5);
-		justify-content: space-between;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: var(--sp-5) var(--sp-6);
 	}
 }
 
@@ -332,6 +332,10 @@ const links = [
 
 	.hero__actions .btn {
 		flex: 1 1 auto;
+	}
+
+	.hero__stats {
+		grid-template-columns: 1fr;
 	}
 }
 </style>
