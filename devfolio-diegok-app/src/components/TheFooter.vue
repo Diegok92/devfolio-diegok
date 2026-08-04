@@ -19,12 +19,11 @@ const links = [
 	<footer class="footer">
 		<div class="container footer__inner">
 			<div class="footer__brand">
-				<span class="footer__mark">DK</span>
+				<span class="footer__mark">DKD</span>
 				<div>
 					<p class="footer__name">Diego Kleiman</p>
-					<p class="footer__built">
-						<AppIcon name="vue" :size="13" />
-						{{ t("footer.builtWith") }}
+					<p class="footer__wordmark">
+						<span class="footer__accent">D</span><span class="footer__dim">iego</span><span class="footer__accent">K</span><span class="footer__accent">D</span><span class="footer__dim">eveloper</span>
 					</p>
 				</div>
 			</div>
@@ -87,22 +86,27 @@ const links = [
 	color: var(--on-brand);
 	font-family: var(--font-mono);
 	font-weight: 800;
+	font-size: 0.85rem;
+	letter-spacing: 0.01em;
 }
 
 .footer__name {
 	font-weight: 600;
 }
 
-.footer__built {
-	display: flex;
-	align-items: center;
-	gap: var(--sp-2);
+.footer__wordmark {
+	font-family: var(--font-mono);
 	font-size: var(--fs-xs);
-	color: var(--text-faint);
+	letter-spacing: -0.01em;
 }
 
-.footer__built svg {
-	color: #42b883;
+.footer__accent {
+	color: var(--brand);
+	font-weight: 700;
+}
+
+.footer__dim {
+	color: var(--text-faint);
 }
 
 .footer__social {

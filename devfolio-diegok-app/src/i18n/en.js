@@ -24,7 +24,7 @@ export default {
 		role: "Full Stack Developer",
 		role2: "Functional Analyst",
 		tagline:
-			"I build online stores, automations and custom software for SMBs. I come from engineering: first I understand the business and its needs, and only after setting the action plan together with the client/user do I touch code.",
+			"I design and develop custom solutions for SMBs. I come from engineering: first I understand the business and its needs, and only after setting the action plan together with the client/user do I touch code.",
 		ctaProjects: "See my work",
 		ctaContact: "Get in touch",
 		stat1: "stores in production",
@@ -36,9 +36,9 @@ export default {
 	about: {
 		eyebrow: "About me",
 		title: "Between Business and Technology",
-		p1: "I come from mechanical engineering. Five years at Volkswagen, starting as a maintenance engineering intern and finishing as a quality engineering analyst, taught me to look at processes, find where they fail and turn that into something measurable and actionable.",
-		p2: "Later, at another company, this time in IT, I worked in Business Intelligence, supporting users from other companies with SAP and SQL Server. That's where it clicked: the hard part is almost never the tool, but understanding what the people asking for something actually need.",
-		p3: "Today I work in two worlds. As a freelance developer I build custom solutions and create online stores. And, with two partners, I'm building HCD, a venture bringing automation and management dashboards to small and medium businesses.",
+		p1: "I come from Mechanical Engineering. Five years at Volkswagen, starting as a Maintenance Engineering Intern and finishing as a Quality Engineering Analyst, taught me to look at processes, find where they fail and turn that into something measurable and actionable.",
+		p2: "Later, at a software company, I worked in Business Intelligence, supporting users from other companies through SAP and SQL Server development. That's where it clicked: the hard part is almost never the tool, but understanding what the people asking for something actually need.",
+		p3: "Today I work in two worlds, both aimed at SMBs. As a Freelance Developer I build custom solutions and create online stores. And, together with Habi, I develop automations, management dashboards, Digital Marketing and more online stores.",
 		p4: "What interests me are the projects where you have to understand the business before writing a line of code. I work with clients independently and I also join teams, as a developer or as a functional analyst.",
 		locationLabel: "Location",
 		focusLabel: "Profile",
@@ -47,7 +47,7 @@ export default {
 		study1: "Systems Analyst",
 		study2: "Programmer Analyst",
 		study3: "Full Stack Web Developer",
-		study4: "Certified TiendaNube Partner",
+		study4: "TiendaNube Partner",
 	},
 
 	projects: {
@@ -101,15 +101,15 @@ export default {
 		current: "Current",
 
 		diegokdev: {
-			role: "Freelance Developer & Partner",
-			company: "HCD",
+			role: "Freelance Developer",
+			company: "DKD",
 			location: "Remote, Argentina",
 			description:
-				"I build and run online stores, and I also develop custom solutions: Automations, Control panels, Chatbots and other tailored builds. In parallel, with two partners we're building HCD, a venture bringing automation and management dashboards to SMBs to improve their performance and online presence.",
+				"I develop custom solutions for SMBs: Online Stores, Automations, Control panels, Chatbots and tailored builds, always aiming to improve their performance and online presence.",
 			achievements: [
 				"Full catalogue migrations between platforms.",
 				"In-house tools and apps built for TiendaNube.",
-				"Ongoing administration of live stores.",
+				"Creation and administration of online stores.",
 				"Development of chatbots, dashboards and analytics.",
 			],
 		},
@@ -118,11 +118,12 @@ export default {
 			company: "Habi",
 			location: "Buenos Aires, Argentina",
 			description:
-				"Web development and the technical marketing layer for the agency's client portfolio: corporate sites, admin panels and custom integrations.",
+				"Web development and digital marketing for the agency's clients: I build sites and online stores, run campaigns and handle the technical side for several clients.",
 			achievements: [
-				"Bridge between clients and the development team: I gather the request, translate it into requirements and follow it through to delivery.",
-				"Reusable internal integrations across every account, with bulk product management via API.",
-				"Campaign management and measurement (Google Ads, Analytics 4, Tag Manager) and Looker Studio dashboards.",
+				"Bridge between clients and the rest of the development team: I gather requests, translate them into requirements and follow them through to delivery.",
+				"Corporate sites and online stores built to convert, with UX/UI, responsive design and API integrations for bulk product management.",
+				"Campaigns on Meta Ads and Google Ads, measured with Analytics 4, Tag Manager and dashboard reports.",
+				"On-page and off-page SEO: keyword research, optimized content and local positioning.",
 			],
 		},
 		seidor: {
@@ -304,7 +305,6 @@ export default {
 	},
 
 	footer: {
-		builtWith: "Built with Vue 3 and Vite, no UI frameworks.",
 		rights: "All rights reserved.",
 		backToTop: "Back to top",
 	},

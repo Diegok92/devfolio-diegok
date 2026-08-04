@@ -24,7 +24,7 @@ export default {
 		role: "Desarrollador Full Stack",
 		role2: "Analista Funcional",
 		tagline:
-			"Creo tiendas online, automatizaciones y soluciones a medida para PyMEs. Vengo de la ingeniería: Primero entiendo el negocio, su necesidad y recién luego de establecer el plan de acción en conjunto con el cliente/usuario toco código.",
+			"Diseño y Desarrollo soluciones a medida para PyMEs. Vengo de la ingeniería: Primero entiendo el negocio, su necesidad y recién, luego de establecer el plan de acción en conjunto con el cliente/usuario, toco código.",
 		ctaProjects: "Ver mi trabajo",
 		ctaContact: "Contactame",
 		stat1: "tiendas en producción",
@@ -36,9 +36,9 @@ export default {
 	about: {
 		eyebrow: "Sobre mí",
 		title: "Entre el Negocio y la Tecnología",
-		p1: "Vengo de la ingeniería mecánica. 5 años en Volkswagen, empezando como pasante de ingeniería de mantenimiento y terminando como analista de ingeniería de calidad, me enseñaron a mirar procesos, encontrar dónde fallan y traducirlo en algo medible y atacable.",
-		p2: "Luego, en otra compañía, ahora de sistemas, me desempeñé en Business Intelligence, atendiendo a usuarios de otras empresas con SAP y SQL Server. Ahí terminé de entender que lo difícil casi nunca es la herramienta, sino entender qué necesitan realmente las personas que te están pidiendo algo.",
-		p3: "Hoy trabajo en dos mundos. Como desarrollador freelance construyo soluciones a medida y creo tiendas online. Y, junto a dos socios estamos armando HCD, un proyecto para llevar automatización y tableros de gestión a las PyMEs.",
+		p1: "Vengo de la Ingeniería Mecánica. 5 años en Volkswagen, empezando como Pasante de Ingeniería de Mantenimiento y terminando como Analista de Ingeniería de Calidad, me enseñaron a mirar procesos, encontrar dónde fallan y traducirlo en algo medible y atacable.",
+		p2: "Luego, en una empresa de sistemas, me desempeñé en Business Intelligence, atendiendo a usuarios de otras compañías mediante desarrollos SAP y SQL Server. Ahí terminé de entender que lo difícil casi nunca es la herramienta, sino entender qué necesitan realmente las personas que te están pidiendo algo.",
+		p3: "Hoy trabajo en dos mundos y ambos apuntando a PyMEs. Como Desarrollador Freelance construyo soluciones a medida y creo tiendas online. Y, junto a Habi desarrollo automatizaciones, tableros de gestión, Marketing Digital y más tiendas online.",
 		p4: "Me interesan los proyectos donde haya que entender el negocio antes de escribir una línea de código. Trabajo con clientes de forma independiente y también me sumo a equipos, como desarrollador o como analista funcional.",
 		locationLabel: "Ubicación",
 		focusLabel: "Perfil",
@@ -47,7 +47,7 @@ export default {
 		study1: "Analista de Sistemas",
 		study2: "Analista Programador",
 		study3: "Desarrollador Web Full Stack",
-		study4: "Partner Certificado TiendaNube",
+		study4: "Partner TiendaNube",
 	},
 
 	projects: {
@@ -101,15 +101,15 @@ export default {
 		current: "Actual",
 
 		diegokdev: {
-			role: "Desarrollador Freelance y Socio",
-			company: "HCD",
+			role: "Desarrollador Freelance",
+			company: "DKD",
 			location: "Remoto, Argentina",
 			description:
-				"Construyo y administro tiendas online, también desarrollo soluciones a medida: Automatizaciones, Paneles de control, Chatbots y demás desarrollos personalizados. En paralelo, junto a dos socios armamos HCD, un proyecto para llevar automatización y tableros de gestión a las PyMEs para mejorar sus rendimientos y presencia online.",
+				"Desarrollo soluciones a medida para PyMEs: Tiendas Online, Automatizaciones, Paneles de control, Chatbots y desarrollos personalizados, siempre apuntando a mejorar sus rendimientos y presencia online.",
 			achievements: [
 				"Migración de catálogos completos entre plataformas.",
 				"Creación de herramientas y apps propias para TiendaNube.",
-				"Administración continua de tiendas ya en producción.",
+				"Creación y Administración de tiendas online.",
 				"Desarrollo de chatbots, paneles de gestión y estadísticas.",
 			],
 		},
@@ -118,11 +118,12 @@ export default {
 			company: "Habi",
 			location: "CABA, Argentina",
 			description:
-				"Desarrollo web y capa técnica de marketing para la cartera de clientes de la agencia: sitios institucionales, paneles de administración e integraciones a medida.",
+				"Desarrollo web y marketing digital para clientes de la agencia: construyo sitios y tiendas online, gestiono campañas y me ocupo de la parte técnica de varios clientes.",
 			achievements: [
-				"Nexo entre los clientes y el equipo de desarrollo: relevo el pedido, lo traduzco a requerimientos y hago el seguimiento hasta la entrega.",
-				"Integraciones internas reutilizables para todas las cuentas, con gestión masiva de productos vía API.",
-				"Gestión y medición de campañas (Google Ads, Analytics 4, Tag Manager) y tableros en Looker Studio.",
+				"Nexo entre clientes y resto del equipo de desarrollo: relevo pedidos, los traduzco a requerimientos y hago el seguimiento hasta la entrega.",
+				"Sitios institucionales y tiendas online pensados para convertir, con UX/UI, diseño responsive e integraciones vía API para la carga masiva de productos.",
+				"Campañas en Meta Ads y Google Ads, medidas con Analytics 4, Tag Manager y reportes en tableros.",
+				"SEO on-page y off-page: investigación de palabras clave, contenido optimizado y posicionamiento local.",
 			],
 		},
 		seidor: {
@@ -304,7 +305,6 @@ export default {
 	},
 
 	footer: {
-		builtWith: "Hecho con Vue 3 y Vite, sin frameworks de UI.",
 		rights: "Todos los derechos reservados.",
 		backToTop: "Volver arriba",
 	},

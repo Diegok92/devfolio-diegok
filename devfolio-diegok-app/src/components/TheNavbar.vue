@@ -67,9 +67,9 @@ function switchLocale(code) {
 	<header class="nav" :class="{ 'nav--solid': isScrolled || isMenuOpen }">
 		<div class="nav__inner container">
 			<a href="#top" class="nav__brand" @click="closeMenu">
-				<span class="nav__brand-mark">DK</span>
+				<span class="nav__brand-mark">DKD</span>
 				<span class="nav__brand-text">
-					<strong>diegok</strong><span class="nav__brand-dim">developer</span>
+					<span class="nav__brand-accent">D</span><span class="nav__brand-dim">iego</span><span class="nav__brand-accent">K</span><span class="nav__brand-accent">D</span><span class="nav__brand-dim">eveloper</span>
 				</span>
 			</a>
 
@@ -175,12 +175,17 @@ function switchLocale(code) {
 	background: var(--brand);
 	color: var(--on-brand);
 	font-weight: 800;
-	font-size: 0.85rem;
-	letter-spacing: 0.02em;
+	font-size: 0.72rem;
+	letter-spacing: 0.01em;
 }
 
 .nav__brand-dim {
 	color: var(--text-faint);
+}
+
+.nav__brand-accent {
+	color: var(--brand);
+	font-weight: 700;
 }
 
 .nav__list {
