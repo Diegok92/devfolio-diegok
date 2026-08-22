@@ -41,6 +41,12 @@ function onKeydown(e) {
 	if (e.key === "Escape") closeMenu();
 }
 
+function onDocClick(e) {
+	if (!isMenuOpen.value) return;
+	if (e.target.closest(".nav__links") || e.target.closest(".nav__burger")) return;
+	closeMenu();
+}
+
 watch(isMenuOpen, (open) => {
 	document.body.style.overflow = open ? "hidden" : "";
 });
@@ -48,12 +54,14 @@ watch(isMenuOpen, (open) => {
 onMounted(() => {
 	window.addEventListener("scroll", onScroll, { passive: true });
 	window.addEventListener("keydown", onKeydown);
+	document.addEventListener("click", onDocClick);
 	onScroll();
 });
 
 onBeforeUnmount(() => {
 	window.removeEventListener("scroll", onScroll);
 	window.removeEventListener("keydown", onKeydown);
+	document.removeEventListener("click", onDocClick);
 	document.body.style.overflow = "";
 });
 
@@ -69,9 +77,16 @@ function switchLocale(code) {
 			<a href="#top" class="nav__brand" @click="closeMenu">
 				<span class="nav__brand-mark">DKD</span>
 				<span class="nav__brand-text">
-					<span class="nav__brand-accent">D</span><span class="nav__brand-dim">iego</span><span class="nav__brand-accent">K</span><span class="nav__brand-accent">D</span><span class="nav__brand-dim">eveloper</span>
+					<span class="nav__brand-accent">D</span><span class="nav__brand-dim">iego</span><span class="nav__brand-accent">K</span><span class="nav__brand-dim">leiman</span><span class="nav__brand-accent">D</span><span class="nav__brand-dim">eveloper</span>
 				</span>
 			</a>
+
+			<div
+				v-if="isMenuOpen"
+				class="nav__backdrop"
+				aria-hidden="true"
+				@click="closeMenu"
+			></div>
 
 			<nav
 				class="nav__links"
@@ -279,22 +294,44 @@ function switchLocale(code) {
 	display: none;
 }
 
+.nav__backdrop {
+	display: none;
+}
+
 @media (max-width: 1024px) {
 	.nav__burger {
 		display: grid;
 	}
 
-	.nav__links {
+	.nav__backdrop {
+		display: block;
 		position: fixed;
 		inset: var(--nav-h) 0 0 0;
+		background: color-mix(in srgb, var(--bg) 40%, transparent);
+		z-index: -1;
+	}
+
+	.nav__links {
+		position: fixed;
+		top: calc(var(--nav-h) + var(--sp-2));
+		right: var(--sp-4);
+		left: auto;
+		bottom: auto;
+		width: max-content;
+		max-width: calc(100vw - 2 * var(--sp-4));
+		max-height: calc(100dvh - var(--nav-h) - var(--sp-5));
 		background: var(--bg);
-		padding: var(--sp-6) var(--sp-5) var(--sp-8);
+		border: 1px solid var(--border);
+		border-radius: var(--radius);
+		box-shadow: var(--shadow-lg);
+		padding: var(--sp-2);
 		overflow-y: auto;
 		opacity: 0;
 		visibility: hidden;
-		transform: translateY(-8px);
-		transition: opacity 0.25s var(--ease), transform 0.25s var(--ease),
-			visibility 0.25s;
+		transform: translateY(-8px) scale(0.98);
+		transform-origin: top right;
+		transition: opacity 0.2s var(--ease), transform 0.2s var(--ease),
+			visibility 0.2s;
 	}
 
 	.nav__links.is-open {
@@ -306,14 +343,14 @@ function switchLocale(code) {
 	.nav__list {
 		flex-direction: column;
 		align-items: stretch;
-		gap: var(--sp-1);
+		gap: 2px;
 	}
 
 	.nav__link {
-		padding: var(--sp-4);
-		font-size: var(--fs-lg);
-		border-bottom: 1px solid var(--border);
-		border-radius: 0;
+		padding: 0.6rem 0.85rem;
+		font-size: var(--fs-base);
+		text-align: right;
+		border-radius: var(--radius-sm);
 	}
 
 	.nav__link.is-active::after {

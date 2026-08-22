@@ -54,7 +54,7 @@ export default {
 		eyebrow: "Portfolio",
 		title: "Proyectos",
 		subtitle:
-			"Una selección de trabajos para clientes reales y herramientas desarrolladas.",
+			"Una selección de trabajos para clientes y herramientas desarrolladas.",
 		featured: "Destacado",
 		viewRepo: "Ver código",
 		viewDemo: "Ver online",
@@ -62,14 +62,14 @@ export default {
 		wip: "En desarrollo",
 		noPreview: "Vista previa en camino",
 		tpenergy: {
-			title: "TPEnergy",
+			title: "TP Energy",
 			description:
-				"Desarrollo y administración de su TiendaNube, con la migración completa del catálogo desde PrestaShop y un diseño a medida del cliente.",
+				"Desarrollo, diseño y administración de su TiendaNube, con migración completa de su catálogo desde PrestaShop mediante software desarrollado a medida y creación de un panel para el manejo de precios de proveedores a cargar en Tango.",
 		},
 		vorterix: {
 			title: "Vorterix Shop",
 			description:
-				"Desarrollo de su tienda en TiendaNube, con manejo de variantes por talle y color. Actualmente en desarrollo.",
+				"Desarrollo, diseño y administración de su TiendaNube con saneamiento completo de su catálogo.",
 		},
 		dphidraulica: {
 			title: "DP Hidráulica",
@@ -84,12 +84,12 @@ export default {
 		tncrud: {
 			title: "App y Dashboard TN",
 			description:
-				"Desarrollé mi propia app como Partner de TiendaNube para conectarme a las tiendas y administrarlas desde un solo panel: carga masiva, actualización y auditoría de catálogos, control de stock y reportes. La construí porque hacerlo a mano no escala.",
+				"Desarrollo de app propia como Partner de TiendaNube para conectarme a las tiendas y administrarlas desde un solo panel: carga masiva, actualización y auditoría de catálogos, control de stock y reportes.",
 		},
 		matde: {
-			title: "Matde - Productores de seguros",
+			title: "Matde - Productores de Seguros",
 			description:
-				"Sitio institucional desarrollado desde cero, con su propio panel de estadísticas, en producción bajo dominio propio.",
+				"Sitio institucional desarrollado desde cero, con su propio panel de estadísticas, bajo dominio propio.",
 		},
 	},
 
@@ -268,7 +268,7 @@ export default {
 	},
 
 	services: {
-		eyebrow: "Para empresas",
+		eyebrow: "",
 		title: "Resumen de mi trabajo freelance",
 		subtitle: "",
 		cta: "Pedime un presupuesto",

@@ -23,7 +23,7 @@ const links = [
 				<div>
 					<p class="footer__name">Diego Kleiman</p>
 					<p class="footer__wordmark">
-						<span class="footer__accent">D</span><span class="footer__dim">iego</span><span class="footer__accent">K</span><span class="footer__accent">D</span><span class="footer__dim">eveloper</span>
+						<span class="footer__accent">D</span><span class="footer__dim">iego</span><span class="footer__accent">K</span><span class="footer__dim">leiman</span><span class="footer__accent">D</span><span class="footer__dim">eveloper</span>
 					</p>
 				</div>
 			</div>

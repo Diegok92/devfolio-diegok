@@ -21,20 +21,20 @@ export const projects = [
 		accent: "brand",
 	},
 	{
-		id: "matde",
-		featured: false,
-		image: matde,
-		repo: null,
-		demo: "https://matde.com.ar",
-		accent: "brand",
-	},
-	{
 		id: "vorterix",
 		featured: false,
 		image: vorterix,
 		repo: null,
 		demo: "https://vorterixshop2.mitiendanube.com/",
 		accent: "accent",
+	},
+	{
+		id: "matde",
+		featured: false,
+		image: matde,
+		repo: null,
+		demo: "https://matde.com.ar",
+		accent: "brand",
 	},
 	{
 		id: "tncrud",

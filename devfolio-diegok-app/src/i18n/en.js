@@ -54,7 +54,7 @@ export default {
 		eyebrow: "Portfolio",
 		title: "Projects",
 		subtitle:
-			"A selection of work for real clients and tools I've developed.",
+			"A selection of work for clients and tools I've developed.",
 		featured: "Featured",
 		viewRepo: "View code",
 		viewDemo: "Live site",
@@ -62,14 +62,14 @@ export default {
 		wip: "In development",
 		noPreview: "Preview coming soon",
 		tpenergy: {
-			title: "TPEnergy",
+			title: "TP Energy",
 			description:
-				"Development and management of their TiendaNube store, with a full catalogue migration from PrestaShop and a design tailored to the client.",
+				"Development, design and management of their TiendaNube store, with a full catalogue migration from PrestaShop using custom-built software, plus a panel to manage supplier prices to load into Tango.",
 		},
 		vorterix: {
 			title: "Vorterix Shop",
 			description:
-				"Building their TiendaNube store, handling variants by size and colour. Currently in development.",
+				"Development, design and management of their TiendaNube store, with a full catalogue cleanup.",
 		},
 		dphidraulica: {
 			title: "DP Hidráulica",
@@ -84,12 +84,12 @@ export default {
 		tncrud: {
 			title: "TN App & Dashboard",
 			description:
-				"I developed my own app as a TiendaNube Partner to connect to the stores and manage them from a single dashboard: bulk upload, catalogue updates and audits, stock control and reports. I built it because doing it by hand doesn't scale.",
+				"In-house app built as a TiendaNube Partner to connect to the stores and manage them from a single dashboard: bulk upload, catalogue updates and audits, stock control and reports.",
 		},
 		matde: {
-			title: "Matde - Insurance brokers",
+			title: "Matde - Insurance Brokers",
 			description:
-				"Corporate website built from scratch, with its own analytics dashboard, live on its own domain.",
+				"Corporate website built from scratch, with its own analytics dashboard, on its own domain.",
 		},
 	},
 
@@ -268,7 +268,7 @@ export default {
 	},
 
 	services: {
-		eyebrow: "For businesses",
+		eyebrow: "",
 		title: "A summary of my freelance work",
 		subtitle: "",
 		cta: "Request a quote",
